@@ -1,10 +1,15 @@
 // import Image from 'next/image';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import styles from './page.module.css';
 
 import Navbar from './sections/Navbar';
 import Header from './sections/Header';
 import AboutUs from './sections/AboutUs';
 import Fish from './sections/Fish';
+import Gallery from './sections/Gallery';
 import Footer from './sections/Footer';
 
 export default function Home() {
@@ -15,6 +20,7 @@ export default function Home() {
 				<Header />
 				<AboutUs />
 				<Fish />
+				<Gallery />
 				<Footer />
 			</main>
 		</>
