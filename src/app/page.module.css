@@ -13,7 +13,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background: black;
+	background: rgba(0, 0, 0, 0.5);
 
 	z-index: 100;
 	padding: 0px 10px;
@@ -65,9 +65,45 @@
 	align-items: center;
 }
 
-/*Description*/
+/*About us*/
 
-.description {
-	min-height: 400px;
-	background: blue;
+.about-us {
+	background: #cecece;
+}
+
+.about-us > div {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 0px 0px;
+	grid-template-areas: '. .';
+}
+
+.about-us .content {
+	padding: 10px 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.about-us .content > div {
+	max-width: 600px;
+}
+
+.about-us .content h2 {
+	margin-top: 20px;
+	font-size: 2rem;
+}
+
+.about-us .content hr {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.about-us .content p {
+	padding: 10px;
+}
+
+.about-us .image {
+	background: rgb(0, 0, 0);
+	height: 100%;
 }

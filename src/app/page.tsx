@@ -1,6 +1,6 @@
 // import Image from 'next/image';
 import styles from './page.module.css';
-import { Navbar, Header, Description } from './sections';
+import { Navbar, Header, AboutUs } from './sections';
 
 export default function Home() {
 	return (
@@ -8,7 +8,7 @@ export default function Home() {
 			<Navbar />
 			<main className={styles.main}>
 				<Header />
-				<Description />
+				<AboutUs />
 			</main>
 		</>
 	);
