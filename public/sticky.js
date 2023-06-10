@@ -7,7 +7,7 @@ function applySticky() {
 	if (!navbar) {
 		return;
 	}
-	var sticky = navbar.offsetTop;
+	var sticky = navbar.clientHeight;
 	if (window.scrollY >= sticky) {
 		navbar.classList.add('sticky');
 	} else {
