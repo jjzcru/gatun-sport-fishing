@@ -294,6 +294,53 @@
 	min-height: 400px;
 }
 
+/*Gallery*/
+
+.gallery {
+	min-height: 200px;
+	width: 100%;
+	border-top: 1px solid #c3c3c3;
+	border-bottom: 1px solid #c3c3c3;
+	background: white;
+	padding: 50px 0px;
+	color: #000;
+}
+
+.gallery .container {
+	max-width: var(--max-width);
+	min-height: 200px;
+	margin: 0px auto;
+	width: 100%;
+}
+
+.gallery .container h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.gallery .container > div {
+	height: 100%;
+}
+
+.gallery .container figure {
+	overflow: hidden;
+	border-radius: 8px;
+	max-height: 200px;
+	max-width: 200px;
+}
+
+.gallery .container figure img {
+	height: 200px;
+	width: 200px;
+
+	object-fit: cover;
+	transition: transform ease-out 220ms;
+}
+
+.gallery .container figure:hover img {
+	transform: scale(1.2);
+}
+
 /*Footer*/
 .footer {
 	background: black;
