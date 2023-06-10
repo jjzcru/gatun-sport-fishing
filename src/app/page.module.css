@@ -6,6 +6,10 @@
 	display: block;
 }
 
+.main button {
+	cursor: pointer;
+}
+
 /*Navbar*/
 
 .navbar {
@@ -142,7 +146,7 @@
 }
 
 .fish .images .item {
-	flex: 1 0 21%; /* explanation below */
+	flex: 1 0 21%;
 	position: relative;
 	overflow: hidden;
 	width: 150px;
@@ -180,4 +184,101 @@
 
 .fish .images .item:hover figcaption {
 	opacity: 1;
+}
+
+.fish dialog {
+	border: none;
+	background: none;
+}
+
+.fish dialog h3 {
+	font-size: 2rem;
+	padding-bottom: 10px;
+}
+
+.fish dialog p {
+	text-align: left;
+}
+
+.fish dialog > div {
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fish dialog form {
+	width: 800px;
+	max-height: 500px;
+	overflow: hidden;
+	color: #000;
+	background: white;
+	overflow: hidden;
+	border-radius: 8px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 0px 20px;
+	grid-template-areas: '. .';
+	padding: 20px;
+}
+
+.fish dialog form > :first-child {
+	overflow: auto;
+}
+
+.fish dialog form.multiple > :first-child img {
+	width: 100%;
+	border-radius: 8px;
+	overflow: hidden;
+	/*margin: 0px auto;*/
+	display: block;
+}
+
+.fish dialog form.multiple > :last-child {
+	display: flex;
+	flex-flow: wrap;
+	width: 100%;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	overflow: scroll;
+}
+
+.fish dialog form.multiple > :last-child div {
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
+	margin: 5px;
+	width: 47%;
+	height: 200px;
+}
+
+.fish dialog form.multiple > :last-child div img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	transition: transform ease-out 220ms;
+}
+
+.fish dialog form.multiple > :last-child div:hover img {
+	transform: scale(1.2);
+}
+
+.fish dialog form button {
+	display: none;
+}
+
+.fish dialog::backdrop {
+	background: rgba(0, 0, 0, 0.75);
+}
+
+.fish form.single img {
+	object-fit: cover;
+	border-radius: 8px;
+	width: 100%;
+	min-height: 400px;
 }
