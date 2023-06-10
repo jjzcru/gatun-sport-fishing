@@ -92,7 +92,7 @@
 
 .about-us > div {
 	display: grid;
-	grid-template-columns: 3fr 1fr;
+	grid-template-columns: 66% 34%;
 	grid-template-rows: 1fr;
 	gap: 0px 0px;
 	grid-template-areas: '. .';
@@ -292,4 +292,60 @@
 	border-radius: 8px;
 	width: 100%;
 	min-height: 400px;
+}
+
+/*Footer*/
+.footer {
+	background: black;
+	min-height: 200px;
+	color: white;
+	padding: 20px 0px;
+}
+
+.footer > div {
+	display: flex;
+	width: 100%;
+	max-width: 800px;
+	margin: 0px auto;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.footer > div > div {
+	max-width: 300px;
+}
+.footer br {
+	margin-bottom: 5px;
+}
+
+.footer > div h4,
+.footer > div p {
+	display: block;
+	margin: 10px;
+}
+
+.footer h4 {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.footer p {
+	line-height: 1.2rem;
+}
+
+.footer a {
+	text-decoration: underline;
+}
+
+.footer .social {
+	display: flex;
+	align-items: center;
+}
+
+.footer .social a {
+	margin: 10px 10px;
+}
+
+.footer .social a img {
+	max-width: 24px;
 }
