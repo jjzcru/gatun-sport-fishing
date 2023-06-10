@@ -1,5 +1,8 @@
 // import Image from 'next/image';
 import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import styles from './page.module.css';
 
 import Navbar from './sections/Navbar';

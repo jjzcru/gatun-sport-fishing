@@ -1,5 +1,5 @@
 'use client';
-import { Virtual } from 'swiper';
+import { Virtual, Navigation, Pagination, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import styles from '../page.module.css';
 
@@ -17,12 +17,31 @@ export default function Gallery() {
 		{
 			image: '/images/fish/sea-bass.jpeg',
 		},
+		{
+			image: '/images/fish/sea-bass.jpeg',
+		},
+		{
+			image: '/images/fish/sea-bass.jpeg',
+		},
+		{
+			image: '/images/fish/sea-bass.jpeg',
+		},
+		{
+			image: '/images/fish/sea-bass.jpeg',
+		},
 	];
 	return (
 		<section className={styles.gallery}>
 			<div className={styles.container}>
 				<h2>Gallery</h2>
-				<Swiper modules={[Virtual]} spaceBetween={5} slidesPerView={3} virtual>
+				<Swiper
+					modules={[Virtual, Navigation, Pagination, Scrollbar]}
+					spaceBetween={20}
+					slidesPerView={4}
+					navigation
+					pagination={{ clickable: true }}
+					virtual
+				>
 					{pictures.map(({ image }, index) => (
 						<SwiperSlide key={index} virtualIndex={index}>
 							<figure>

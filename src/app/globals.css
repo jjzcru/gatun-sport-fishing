@@ -41,6 +41,20 @@
 	--callout-border-rgb: 172, 175, 176;
 	--card-rgb: 180, 185, 188;
 	--card-border-rgb: 131, 134, 135;
+	--swiper-theme-color: #000;
+	--swiper-pagination-color: #000;
+}
+
+.swiper-wrapper {
+	height: 230px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	color: #000 !important;
+}
+
+.swiper-button-next {
 }
 
 @media (prefers-color-scheme: dark) {
