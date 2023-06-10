@@ -82,8 +82,9 @@ function FishForm(props: DialogProps) {
 				<form method="dialog" className={styles['single']}>
 					<div>
 						<h3>{label}</h3>
-						<p>{description}</p>
-
+						{description.map((d, i) => (
+							<p key={i}>{d}</p>
+						))}
 						<button />
 					</div>
 					<div>
@@ -100,7 +101,9 @@ function FishForm(props: DialogProps) {
 				<div>
 					<h3>{label}</h3>
 					<img src={primaryImage} alt={label} />
-					<p>{description}</p>
+					{description.map((d, i) => (
+						<p key={i}>{d}</p>
+					))}
 					<button />
 				</div>
 				<div>
@@ -125,8 +128,10 @@ function getData(): Array<FishData> {
 		{
 			id: 'bass',
 			label: 'Sea bass',
-			description:
+			description: [
 				'La lubina pavo real es uno de los peces de agua dulce más populares del mundo. Desde los gigantes sudamericanos que acechan en el Amazonas hasta el sur de Florida, se les considera uno de los peces de agua dulce más coloridos y de mayor resistencia en el mundo. Parte de la razón por la que son tan apreciados en todo el mundo es porque en realidad no son lubinas sino cíclidos. ',
+				'La lubina pavo real es uno de los peces de agua dulce más populares del mundo. Desde los gigantes sudamericanos que acechan en el Amazonas hasta el sur de Florida, se les considera uno de los peces de agua dulce más coloridos y de mayor resistencia en el mundo. Parte de la razón por la que son tan apreciados en todo el mundo es porque en realidad no son lubinas sino cíclidos. ',
+			],
 			primaryImage: '/images/fish/sea-bass.jpeg',
 			images: [
 				'/images/fish/sea-bass.jpeg',
@@ -142,40 +147,45 @@ function getData(): Array<FishData> {
 		{
 			id: 'Tarpon',
 			label: 'Tarpon',
-			description:
+			description: [
 				'El sábalo real o bien tarpón (especie Megalops atlanticus), es un pez osteíctio elopiforme de la familia de los megalópidos.',
+			],
 			primaryImage: '/images/fish/sea-bass.jpeg',
 			images: [],
 		},
 		{
 			id: 'Snook',
 			label: 'Snook',
-			description:
+			description: [
 				'Excelente especie para la pesca deportiva, se capturan en todas las temporadas del año y muchas personas vienen al lago gatun en busca de esta especie. Después le agrego algo mas aquí',
+			],
 			primaryImage: '/images/fish/sea-bass.jpeg',
 			images: [],
 		},
 		{
 			id: 'Jurel',
 			label: 'Jurel',
-			description:
+			description: [
 				'El Jurel es una especie de pez que pertenece a la familia Carangidae. Se encuentra en aguas templadas y tropicales de todo el mundo, y es muy común en el Océano Atlántico y el Pacífico.',
+			],
 			primaryImage: '/images/fish/sea-bass.jpeg',
 			images: [],
 		},
 		{
 			id: 'Snook2',
 			label: 'Snook',
-			description:
+			description: [
 				'Excelente especie para la pesca deportiva, se capturan en todas las temporadas del año y muchas personas vienen al lago gatun en busca de esta especie. Después le agrego algo mas aquí',
+			],
 			primaryImage: '/images/fish/sea-bass.jpeg',
 			images: [],
 		},
 		{
 			id: 'Jurel2',
 			label: 'Jurel',
-			description:
+			description: [
 				'El Jurel es una especie de pez que pertenece a la familia Carangidae. Se encuentra en aguas templadas y tropicales de todo el mundo, y es muy común en el Océano Atlántico y el Pacífico.',
+			],
 			primaryImage: '/images/fish/sea-bass.jpeg',
 			images: [],
 		},
@@ -184,7 +194,7 @@ function getData(): Array<FishData> {
 
 interface FishData {
 	id: string;
-	description: string;
+	description: Array<string>;
 	label: string;
 	primaryImage: string;
 	images: Array<string>;
