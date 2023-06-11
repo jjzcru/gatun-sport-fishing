@@ -1,5 +1,5 @@
-// import Image from 'next/image';
 "use client";
+// import Image from 'next/image';
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
