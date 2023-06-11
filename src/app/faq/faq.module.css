@@ -1,0 +1,57 @@
+.main {
+}
+
+.main section,
+.main header {
+  display: block;
+}
+
+.main button {
+  cursor: pointer;
+}
+
+/*Header*/
+
+.header {
+  height: 58vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.header .overlay {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+.header img {
+  position: relative;
+  object-fit: cover;
+  height: 58vh;
+  width: 100%;
+  pointer-events: none;
+}
+
+.header h1 {
+  margin-bottom: 2rem;
+}
+
+.header p {
+  max-width: 600px;
+}
+
+.header .content {
+  top: 0;
+  z-index: 1px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
