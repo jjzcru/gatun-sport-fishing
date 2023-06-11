@@ -17,6 +17,8 @@
       "image": "/images/fish/sea-bass.jpeg"
     },
     "fish": {
+      "title": "Fish",
+      "description": "Random description",
       "fishes": [
         {
           "id": "bass",
@@ -81,6 +83,35 @@
           ],
           "primaryImage": "/images/fish/sea-bass.jpeg",
           "images": []
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Gallery",
+      "images": [
+        {
+          "label": "",
+          "image": "/images/fish/sea-bass.jpeg"
+        },
+        {
+          "label": "",
+          "image": "/images/fish/sea-bass.jpeg"
+        },
+        {
+          "label": "",
+          "image": "/images/fish/sea-bass.jpeg"
+        },
+        {
+          "label": "",
+          "image": "/images/fish/sea-bass.jpeg"
+        },
+        {
+          "label": "",
+          "image": "/images/fish/sea-bass.jpeg"
+        },
+        {
+          "label": "",
+          "image": "/images/fish/sea-bass.jpeg"
         }
       ]
     }

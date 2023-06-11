@@ -16,12 +16,23 @@ export const AppContext = createContext<AppContextProps>({
     content: "",
     image: "",
   },
+  fish: {
+    title: "",
+    description: "",
+    fishes: [],
+  },
+  gallery: {
+    title: "",
+    images: [],
+  },
 });
 
 interface AppContextProps {
   navbar: NavbarSection;
   header: HeaderSection;
   aboutUs: AboutUsSection;
+  fish: FishSection;
+  gallery: GallerySection;
 }
 
 interface NavbarSection {
@@ -39,4 +50,26 @@ interface AboutUsSection {
   title: string;
   content: string;
   image: string;
+}
+
+interface FishSection {
+  title: string;
+  description: string;
+  fishes: Array<FishData>;
+}
+
+interface GallerySection {
+  title: string;
+  images: Array<{
+    label: string;
+    image: string;
+  }>;
+}
+
+export interface FishData {
+  id: string;
+  description: Array<string>;
+  label: string;
+  primaryImage: string;
+  images: Array<string>;
 }
