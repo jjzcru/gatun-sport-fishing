@@ -25,6 +25,37 @@ export const AppContext = createContext<AppContextProps>({
     title: "",
     images: [],
   },
+  footer: {
+    contactUs: {
+      title: "",
+      description: "",
+      email: {
+        text: "",
+        address: "",
+        subject: "",
+      },
+      copyright: "",
+      privacy: {
+        text: "",
+        url: "",
+      },
+    },
+    address: {
+      title: "",
+      mapUrl: "",
+      address1: "",
+      address2: "",
+      phone: {
+        text: "",
+        number: "",
+      },
+    },
+    social: {
+      instagram: "",
+      wa: "",
+      tiktok: "",
+    },
+  },
 });
 
 interface AppContextProps {
@@ -33,6 +64,7 @@ interface AppContextProps {
   aboutUs: AboutUsSection;
   fish: FishSection;
   gallery: GallerySection;
+  footer: FooterSection;
 }
 
 interface NavbarSection {
@@ -66,10 +98,48 @@ interface GallerySection {
   }>;
 }
 
+interface FooterSection {
+  contactUs: ContactUs;
+  address: Address;
+  social: Social;
+}
+
 export interface FishData {
   id: string;
   description: Array<string>;
   label: string;
   primaryImage: string;
   images: Array<string>;
+}
+
+export interface ContactUs {
+  title: string;
+  description: string;
+  email: {
+    text: string;
+    address: string;
+    subject: string;
+  };
+  copyright: string;
+  privacy: {
+    text: string;
+    url: string;
+  };
+}
+
+export interface Address {
+  title: string;
+  mapUrl: string;
+  address1: string;
+  address2: string;
+  phone: {
+    text: string;
+    number: string;
+  };
+}
+
+export interface Social {
+  instagram: string;
+  wa: string;
+  tiktok: string;
 }
