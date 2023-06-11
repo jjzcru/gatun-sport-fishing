@@ -1,0 +1,19 @@
+{
+  "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
+    "tsx",
+    "css",
+    "json"
+  ],
+  "eablokker.tabsSidebar.config.customTabOrder" : [
+    "\/Users\/jjzcru\/Workspace\/Fennex\/GSF\/gatun-sport-fishing\/src\/app\/sections\/Gallery.tsx",
+    "\/Users\/jjzcru\/Workspace\/Fennex\/GSF\/gatun-sport-fishing\/src\/app\/page.module.css",
+    "\/Users\/jjzcru\/Workspace\/Fennex\/GSF\/gatun-sport-fishing\/src\/app\/globals.css",
+    "\/Users\/jjzcru\/Workspace\/Fennex\/GSF\/gatun-sport-fishing\/src\/app\/sections\/Fish.tsx",
+    "\/Users\/jjzcru\/Workspace\/Fennex\/GSF\/gatun-sport-fishing\/data\/locale\/en.json",
+    "\/Users\/jjzcru\/Workspace\/Fennex\/GSF\/gatun-sport-fishing\/data\/locale\/es.json",
+    "\/Users\/jjzcru\/Workspace\/Fennex\/GSF\/gatun-sport-fishing\/src\/app\/page.tsx",
+    "\/Users\/jjzcru\/Workspace\/Fennex\/GSF\/gatun-sport-fishing\/src\/app\/sections\/Header.tsx",
+    "\/Users\/jjzcru\/Workspace\/Fennex\/GSF\/gatun-sport-fishing\/src\/app\/App.context.tsx",
+    "\/Users\/jjzcru\/Workspace\/Fennex\/GSF\/gatun-sport-fishing\/src\/app\/sections\/Navbar.tsx"
+  ]
+}

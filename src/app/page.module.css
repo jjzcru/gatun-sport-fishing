@@ -3,396 +3,396 @@
 
 .main section,
 .main header {
-	display: block;
+  display: block;
 }
 
 .main button {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 /*Navbar*/
 
 .navbar {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	min-height: var(--navbar-height);
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background: rgba(0, 0, 0, 0);
-	z-index: 100;
-	padding: 0px 50px;
-	transition: background ease-out 220ms;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: var(--navbar-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0);
+  z-index: 100;
+  padding: 0px 50px;
+  transition: background ease-out 220ms;
 }
 
 .navbar button {
-	min-height: 32px;
-	background: red;
-	border: none;
-	border-radius: 8px;
-	overflow: hidden;
-	cursor: pointer;
-	padding: 8px 20px;
-	color: white;
+  min-height: 32px;
+  background: red;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 8px 20px;
+  color: white;
 }
 
 /*Header*/
 
 .header {
-	height: 100vh;
-	position: relative;
-	overflow: hidden;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
 
 .header .overlay {
-	position: absolute;
-	z-index: 0;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 
-	background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 .header video {
-	position: relative;
-	object-fit: cover;
-	height: 100vh;
-	width: 100%;
-	pointer-events: none;
+  position: relative;
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  pointer-events: none;
 }
 
 .header h1 {
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .header p {
-	max-width: 600px;
+  max-width: 600px;
 }
 
 .header .content {
-	top: 0;
-	z-index: 1px;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  top: 0;
+  z-index: 1px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*About us*/
 
 .about-us {
-	background: #cecece;
-	border-bottom: 1px solid rgba(0, 0, 0, 1);
+  background: #cecece;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
 .about-us > div {
-	display: grid;
-	grid-template-columns: 66% 34%;
-	grid-template-rows: 1fr;
-	gap: 0px 0px;
-	grid-template-areas: '. .';
+  display: grid;
+  grid-template-columns: 66% 34%;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". .";
 }
 
 .about-us .content {
-	padding: 10px 50px;
-	display: flex;
-	flex-direction: column;
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-us .content > div {
-	max-width: 600px;
+  max-width: 600px;
 }
 
 .about-us .content h2 {
-	margin-top: 20px;
-	font-size: 2rem;
+  margin-top: 20px;
+  font-size: 2rem;
 }
 
 .about-us .content hr {
-	margin-top: 20px;
-	margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .about-us .content p {
-	padding: 10px;
+  padding: 10px;
 }
 
 .about-us .image {
-	background: rgb(0, 0, 0);
-	height: 100%;
+  background: rgb(0, 0, 0);
+  height: 100%;
 }
 
 /*Fish*/
 
 .fish {
-	background: white;
-	padding: 25px 0px;
-	color: black;
+  background: white;
+  padding: 25px 0px;
+  color: black;
 }
 
 .fish h2 {
-	font-size: 2rem;
-	text-align: center;
-	padding: 8px;
+  font-size: 2rem;
+  text-align: center;
+  padding: 8px;
 }
 
 .fish p {
-	font-size: 1rem;
-	text-align: center;
-	padding: 8px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 8px;
 }
 
 .fish .images {
-	max-width: 800px;
-	min-height: 200px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin: 0 auto;
+  max-width: var(--max-width);
+  min-height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .fish .images .item {
-	flex: 1 0 21%;
-	position: relative;
-	overflow: hidden;
-	width: 150px;
-	height: 200px;
-	cursor: pointer;
-	border-radius: 8px;
-	margin: 5px;
+  flex: 1 0 21%;
+  position: relative;
+  overflow: hidden;
+  width: 150px;
+  height: 200px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 5px;
 }
 
 .fish .images .item img {
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-	transition: transform ease-out 220ms;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform ease-out 220ms;
 }
 
 .fish .images .item figcaption {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: 5;
-	background: rgba(0, 0, 0, 0.5);
-	opacity: 0;
-	color: white;
-	top: 0;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	transition: opacity ease-out 220ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  color: white;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity ease-out 220ms;
 }
 
 .fish .images .item:hover img {
-	transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .fish .images .item:hover figcaption {
-	opacity: 1;
+  opacity: 1;
 }
 
 .fish dialog {
-	border: none;
-	background: none;
+  border: none;
+  background: none;
 }
 
 .fish dialog h3 {
-	font-size: 2rem;
-	padding-bottom: 10px;
+  font-size: 2rem;
+  padding-bottom: 10px;
 }
 
 .fish dialog p {
-	text-align: left;
+  text-align: left;
 }
 
 .fish dialog > div {
-	top: 0;
-	left: 0;
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fish dialog form {
-	width: 800px;
-	max-height: 500px;
-	overflow: hidden;
-	color: #000;
-	background: white;
-	overflow: hidden;
-	border-radius: 8px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr;
-	gap: 0px 20px;
-	grid-template-areas: '. .';
-	padding: 20px;
+  width: 800px;
+  max-width: var(--dialog-max-width);
+  max-height: 500px;
+  overflow: hidden;
+  color: #000;
+  background: white;
+  overflow: hidden;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 20px;
+  grid-template-areas: ". .";
+  padding: 20px;
 }
 
 .fish dialog form > :first-child {
-	overflow: auto;
+  overflow: auto;
 }
 
 .fish dialog form.multiple > :first-child img {
-	width: 100%;
-	border-radius: 8px;
-	overflow: hidden;
-	/*margin: 0px auto;*/
-	display: block;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  /*margin: 0px auto;*/
+  display: block;
 }
 
 .fish dialog form.multiple > :last-child {
-	display: flex;
-	flex-flow: wrap;
-	width: 100%;
-	justify-content: space-evenly;
-	margin: 0 auto;
-	overflow: scroll;
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  overflow: scroll;
 }
 
 .fish dialog form.multiple > :last-child div {
-	position: relative;
-	overflow: hidden;
-	border-radius: 8px;
-	margin: 5px;
-	width: 47%;
-	height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 5px;
+  width: 47%;
+  height: 200px;
 }
 
 .fish dialog form.multiple > :last-child div img {
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-	transition: transform ease-out 220ms;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform ease-out 220ms;
 }
 
 .fish dialog form.multiple > :last-child div:hover img {
-	transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .fish dialog form button {
-	display: none;
+  display: none;
 }
 
 .fish dialog::backdrop {
-	background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.75);
 }
 
 .fish form.single img {
-	object-fit: cover;
-	border-radius: 8px;
-	width: 100%;
-	min-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  width: 100%;
+  min-height: 400px;
 }
 
 /*Gallery*/
 
 .gallery {
-	min-height: 200px;
-	width: 100%;
-	border-top: 1px solid #c3c3c3;
-	border-bottom: 1px solid #c3c3c3;
-	background: white;
-	padding: 50px 0px;
-	color: #000;
+  min-height: 200px;
+  width: 100%;
+  border-top: 1px solid #c3c3c3;
+  border-bottom: 1px solid #c3c3c3;
+  background: white;
+  padding: 50px 0px;
+  color: #000;
 }
 
 .gallery .container {
-	max-width: var(--max-width);
-	min-height: 200px;
-	margin: 0px auto;
-	width: 100%;
+  max-width: var(--max-width);
+  min-height: 200px;
+  margin: 0px auto;
+  width: 100%;
 }
 
 .gallery .container h2 {
-	text-align: center;
-	margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .gallery .container > div {
-	height: 100%;
+  height: 100%;
 }
 
 .gallery .container figure {
-	overflow: hidden;
-	border-radius: 8px;
-	max-height: 200px;
-	max-width: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+  max-height: 200px;
+  max-width: 200px;
 }
 
 .gallery .container figure img {
-	height: 200px;
-	width: 200px;
+  height: 200px;
+  width: 200px;
 
-	object-fit: cover;
-	transition: transform ease-out 220ms;
+  object-fit: cover;
+  transition: transform ease-out 220ms;
 }
 
 .gallery .container figure:hover img {
-	transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 /*Footer*/
 .footer {
-	background: black;
-	min-height: 200px;
-	color: white;
-	padding: 20px 0px;
+  background: black;
+  min-height: 200px;
+  color: white;
+  padding: 20px 0px;
 }
 
 .footer > div {
-	display: flex;
-	width: 100%;
-	max-width: 800px;
-	margin: 0px auto;
-	justify-content: space-between;
-	align-items: flex-start;
+  display: flex;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0px auto;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer > div > div {
-	max-width: 300px;
+  max-width: 300px;
 }
 .footer br {
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .footer > div h4,
 .footer > div p {
-	display: block;
-	margin: 10px;
+  display: block;
+  margin: 10px;
 }
 
 .footer h4 {
-	font-size: 1.2rem;
-	font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .footer p {
-	line-height: 1.2rem;
+  line-height: 1.2rem;
 }
 
 .footer a {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer .social {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .footer .social a {
-	margin: 10px 10px;
+  margin: 10px 10px;
 }
 
 .footer .social a img {
-	max-width: 24px;
+  max-width: 24px;
 }
