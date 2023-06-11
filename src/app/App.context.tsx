@@ -11,11 +11,17 @@ export const AppContext = createContext<AppContextProps>({
     videoSrc: "",
     content: [],
   },
+  aboutUs: {
+    title: "",
+    content: "",
+    image: "",
+  },
 });
 
 interface AppContextProps {
   navbar: NavbarSection;
   header: HeaderSection;
+  aboutUs: AboutUsSection;
 }
 
 interface NavbarSection {
@@ -27,4 +33,10 @@ interface HeaderSection {
   title: string;
   videoSrc: string;
   content: Array<string>;
+}
+
+interface AboutUsSection {
+  title: string;
+  content: string;
+  image: string;
 }
