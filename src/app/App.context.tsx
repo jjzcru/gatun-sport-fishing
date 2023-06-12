@@ -56,6 +56,12 @@ export const AppContext = createContext<AppContextProps>({
       tiktok: "",
     },
   },
+  faq: {
+    title: "",
+    description: "",
+    image: "",
+    questions: [],
+  },
 });
 
 interface AppContextProps {
@@ -65,6 +71,7 @@ interface AppContextProps {
   fish: FishSection;
   gallery: GallerySection;
   footer: FooterSection;
+  faq: FaqSection;
 }
 
 interface NavbarSection {
@@ -102,6 +109,17 @@ interface FooterSection {
   contactUs: ContactUs;
   address: Address;
   social: Social;
+}
+
+interface FaqSection {
+  title: string;
+  description: string;
+  image: string;
+  labelBtn: string;
+  questions: Array<{
+    question: string;
+    answer: Array<string>;
+  }>;
 }
 
 export interface FishData {

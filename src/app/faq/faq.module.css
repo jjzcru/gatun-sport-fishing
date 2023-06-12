@@ -1,0 +1,108 @@
+.main {
+}
+
+.main section,
+.main header {
+  display: block;
+}
+
+.main button {
+  cursor: pointer;
+}
+
+/*FAQ Header*/
+
+.header {
+  height: 58vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.header .overlay {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+.header img {
+  position: relative;
+  object-fit: cover;
+  height: 58vh;
+  width: 100%;
+  pointer-events: none;
+}
+
+.header h1 {
+  margin-bottom: 2rem;
+}
+
+.header p {
+  max-width: 600px;
+}
+
+.header .content {
+  top: 0;
+  z-index: 1px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*FAQ*/
+
+.faq {
+  min-height: 42vh;
+  background: white;
+  color: black;
+  padding: 20px 0px;
+}
+
+.faq .accordion {
+  max-width: var(--max-width);
+  margin: 0px auto;
+  border-top: 1px solid #000;
+  padding: 20px 10px;
+  margin-bottom: 10px;
+}
+
+.faq .accordion:last-of-type {
+  border-bottom: 1px solid #000;
+}
+
+.faq .accordion > :first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.faq button {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #c3c3c3;
+  color: #000;
+  background: rgba(255, 255, 255, 1);
+  transition: background ease-out 220ms, color ease-out 220ms;
+  cursor: pointer;
+}
+
+.faq button:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 1);
+}
+
+.faq .panel {
+  padding: 0px 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}

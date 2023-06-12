@@ -114,6 +114,52 @@
           "image": "/images/fish/sea-bass.jpeg"
         }
       ]
+    },
+    "footer": {
+      "contactUs": {
+        "title": "Contact Us",
+        "description": "Text random sobre porque contactarlo",
+        "email": {
+          "text": "gerardoduran30@hotmail.com",
+          "address": "gerardoduran30@hotmail.com",
+          "subject": "Consulta"
+        },
+        "copyright": "© 2023 Gamboa Gatun Association",
+        "privacy": {
+          "text": "Privacy Policy",
+          "url": "#"
+        }
+      },
+      "address": {
+        "title": "Address",
+        "mapUrl": "https://goo.gl/maps/H8XZUFixP9uozwYo6",
+        "address1": "Gamboa",
+        "address2": "Panama, Panama",
+        "phone": {
+          "text": "(507) 6948-2285",
+          "number": "+150769482285"
+        }
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/gatunsportfishing/",
+        "wa": "https://wa.me/50769482285",
+        "tiktok": "https://www.tiktok.com/@gerardoduranfishing"
+      }
+    },
+    "faq": {
+      "title": "Faq",
+      "description": "Description",
+      "image": "/header.jpg",
+      "questions": [
+        {
+          "question": "Question 1",
+          "answer": ["Answer 1", "Answer 2"]
+        },
+        {
+          "question": "Question 2",
+          "answer": ["Answer 1"]
+        }
+      ]
     }
   }
 }
