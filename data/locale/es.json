@@ -150,6 +150,7 @@
       "title": "Faq",
       "description": "Description",
       "image": "/header.jpg",
+      "viewMoreBtn": "View More",
       "questions": [
         {
           "question": "Question 1",

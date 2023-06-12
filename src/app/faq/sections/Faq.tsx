@@ -5,18 +5,18 @@ import styles from "../faq.module.css";
 
 export default function Faq() {
   const { faq } = useContext(AppContext);
-  const { questions } = faq;
+  const { questions, viewMoreBtn } = faq;
   return (
     <section className={styles.faq}>
-      {questions.map((q) => (
-        <Accordion {...q} />
+      {questions.map((q, i) => (
+        <Accordion key={i} viewMoreBtn={viewMoreBtn} {...q} />
       ))}
     </section>
   );
 }
 
 function Accordion(props: AccordionProps) {
-  const { question, answer } = props;
+  const { question, answer, viewMoreBtn } = props;
   const panelRef = useRef<HTMLDivElement | null>(null);
   const [active, setActive] = useState<boolean>(false);
   const style: any = useMemo(() => {
@@ -25,9 +25,10 @@ function Accordion(props: AccordionProps) {
     }
     const { current } = panelRef;
 
-    if (current.style.maxHeight) {
+    if (!active) {
       return { maxHeight: null };
     }
+
     return { maxHeight: current.scrollHeight * 2 + "px" };
   }, [active, panelRef]);
 
@@ -39,7 +40,7 @@ function Accordion(props: AccordionProps) {
     <div className={styles.accordion}>
       <div onClick={onClick}>
         <h4>{question} </h4>
-        <button onClick={onClick}>View More</button>
+        <button onClick={onClick}>{viewMoreBtn}</button>
       </div>
 
       <div className={styles.panel} ref={panelRef} style={style}>
@@ -54,4 +55,5 @@ function Accordion(props: AccordionProps) {
 interface AccordionProps {
   question: string;
   answer: Array<string>;
+  viewMoreBtn: string;
 }

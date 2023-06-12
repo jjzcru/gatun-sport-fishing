@@ -60,6 +60,7 @@ export const AppContext = createContext<AppContextProps>({
     title: "",
     description: "",
     image: "",
+    viewMoreBtn: "",
     questions: [],
   },
 });
@@ -115,7 +116,7 @@ interface FaqSection {
   title: string;
   description: string;
   image: string;
-  labelBtn: string;
+  viewMoreBtn: string;
   questions: Array<{
     question: string;
     answer: Array<string>;
