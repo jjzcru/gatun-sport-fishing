@@ -115,8 +115,9 @@ interface FaqSection {
   title: string;
   description: string;
   image: string;
+  labelBtn: string;
   questions: Array<{
-    question: "";
+    question: string;
     answer: Array<string>;
   }>;
 }

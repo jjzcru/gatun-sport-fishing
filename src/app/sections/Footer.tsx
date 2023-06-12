@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useContext } from "react";
 import { AppContext } from "../App.context";
 import styles from "../page.module.css";
@@ -29,14 +30,17 @@ function ContactUs() {
         </a>
       </p>
 
-      <p>{copyright}</p>
-
+      <p>
+        <Link href="/faq">FAQ</Link>
+      </p>
       <p>
         {" "}
         <a href={privacy.url} target={"blank"} rel="noopener">
           {privacy.text}
         </a>
       </p>
+
+      <p>{copyright}</p>
     </div>
   );
 }

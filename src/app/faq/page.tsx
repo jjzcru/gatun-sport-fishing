@@ -6,9 +6,10 @@ import "swiper/css/scrollbar";
 import styles from "../page.module.css";
 
 import Navbar from "../sections/Navbar";
-import Header from "./sections/Header";
-import AboutUs from "../sections/AboutUs";
 import Footer from "../sections/Footer";
+
+import Header from "./sections/Header";
+import Faq from "./sections/Faq";
 
 import { AppContext } from "../App.context";
 import { useData } from "../App.hooks";
@@ -24,7 +25,7 @@ export default function Main() {
       <Navbar />
       <main className={styles.main}>
         <Header />
-        <AboutUs />
+        <Faq />
         <Footer />
       </main>
     </AppContext.Provider>
