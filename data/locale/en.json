@@ -5,83 +5,78 @@
       "bookNowBtn": "Book Now"
     },
     "header": {
-      "title": "Lorem Ipsum",
+      "title": "Best Freshwater Fishing In The World",
       "videoSrc": "/header.mp4",
       "content": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis nisi lorem, non faucibus lorem aliquet sodales."
+        "The best freshwater fishing charter in Panama. Come and discover the biggest artificial lake of the world, with some of the best game fish."
       ]
     },
     "aboutUs": {
       "title": "Gatun sport fishing Slogan",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla leo eget feugiat mattis. Nunc non magna pulvinar sem ullamcorper vestibulum. Integer interdum neque a diam iaculis, quis pharetra diam rutrum. Aenean leo ex, congue a consectetur eu, consequat ut odio. Proin tincidunt odio a quam iaculis, sed vestibulum libero accumsan. Praesent eu orci ac leo suscipit imperdiet. Integer pellentesque non odio eu tincidunt. Morbi ut blandit lorem. Proin eros metus, vulputate eu luctus ac, posuere eget lorem. Duis turpis nisi, commodo a lectus at, tempor consequat nibh. Aliquam erat volutpat. Mauris hendrerit a justo eget placerat. Praesent purus leo, posuere commodo odio nec, lacinia pulvinar ipsum. Proin tincidunt venenatis arcu ut vestibulum. Phasellus eu ante leo. Proin volutpat leo eget justo laoreet interdum.",
+      "content": [
+        "4.8 Stars rating on Fishing Booker and other charter websites, for more than 10 years we have gave our guests the best atention, gear and boats of all Gatun lake. Our goal is to give you the best fishing experience of your live. ",
+        "GSF team is ready to make that dream happen. We are located at the heart of the Panama Canal, Going out from Gamboa Rainforest Hotel with security 24/7 and private parking, restaurants, pool and so much more!"
+      ],
       "image": "/images/fish/sea-bass.jpeg"
     },
     "fish": {
-      "title": "Fish",
+      "title": "Target Species",
       "description": "Random description",
       "fishes": [
         {
-          "id": "bass",
-          "label": "Sea bass",
+          "id": "peacock",
+          "label": "Peacock bass",
           "description": [
-            "La lubina pavo real es uno de los peces de agua dulce más populares del mundo. Desde los gigantes sudamericanos que acechan en el Amazonas hasta el sur de Florida, se les considera uno de los peces de agua dulce más coloridos y de mayor resistencia en el mundo. Parte de la razón por la que son tan apreciados en todo el mundo es porque en realidad no son lubinas sino cíclidos. ",
-            "La lubina pavo real es uno de los peces de agua dulce más populares del mundo. Desde los gigantes sudamericanos que acechan en el Amazonas hasta el sur de Florida, se les considera uno de los peces de agua dulce más coloridos y de mayor resistencia en el mundo. Parte de la razón por la que son tan apreciados en todo el mundo es porque en realidad no son lubinas sino cíclidos. "
+            "The peacock bass is one of the most popular freshwater fish in the world. From the South American giants that lurk in the Amazon to South Florida, they are considered some of the hardiest and most colorful freshwater fish in the world.",
+            " Part of the reason why they are so highly regarded around the world is because they are not actually sea bass but cichlids. There are over 1,300 species of cichlids found on four different continents, including well-known fish such as anglers, oscars, and tilapia. ",
+            "Until 2006 it was believed that there were only five species of peacock bass in the entire world, but today there are 15 different recognized species. Only one of them is found in Panama, Cichla Pleiozona, which is unique in having a distinctive fourth vertical bar. ",
+            "The Peacock bass we fish for today is not native to Panama, but was introduced in the 1950s and 1960s. Known locally as “sergeant,” there are two theories as to how they got here. One is that they escaped from a nearby fish farm during a flood after heavy rains, the other scenario is that they were planted by bored American soldiers who were stationed here while the Panama Canal was under American control from its opening in 1914 until 1999. The nickname “sergeant” comes from the fact that in the early decades it was mainly US military who fished them and/or the four vertical stripes on their sides as a military uniform. Come what may, the sea bass has taken over Gatun Lake and is now, without a doubt, the preeminent freshwater species."
           ],
-          "primaryImage": "/images/fish/sea-bass.jpeg",
+          "primaryImage": "/images/fish/peacock/peacock1.jpg",
           "images": [
-            "/images/fish/sea-bass.jpeg",
-            "/images/fish/sea-bass.jpeg",
-            "/images/fish/sea-bass.jpeg",
-            "/images/fish/sea-bass.jpeg",
-            "/images/fish/sea-bass.jpeg",
-            "/images/fish/sea-bass.jpeg",
-            "/images/fish/sea-bass.jpeg",
-            "/images/fish/sea-bass.jpeg"
+            "/images/fish/peacock/peacock1.jpg",
+            "/images/fish/peacock/peacock2.jpg",
+            "/images/fish/peacock/peacock3.jpg",
+            "/images/fish/peacock/peacock4.jpg",
+            "/images/fish/peacock/peacock5.jpg",
+            "/images/fish/peacock/peacock6.jpg",
+            "/images/fish/peacock/peacock7.jpg"
           ]
         },
         {
           "id": "Tarpon",
           "label": "Tarpon",
           "description": [
-            "El sábalo real o bien tarpón (especie Megalops atlanticus), es un pez osteíctio elopiforme de la familia de los megalópidos."
+            "The tarpon or tarpon (Megalops atlanticus species) is an elopiform osteichthyan fish of the megalopid family.It is a large fish, between two and two.5 m and around one hundred and fifty to one hundred sixty-one kg in weight, with a fusiform body similar to a herring, completely covered with large and thick scales, bluish-green on the surface. top and silver on its sides. The dorsal fin begins in the middle of the reverse and at the last ray, in the same way as the anal fin, it extends to form a filament. The pectoral fins are low and the pelvic fins are abdominal.Royal tarpon inhabit the riparian areas of the Atlantic, Florida, and in Africa at tropical latitudes. They also inhabit estuaries and even rivers and lakes. They gather in schools to chase, sometimes even freshwater, the fish on which they feed. Its meat is not particularly pleasant, but its important size makes it a desirable prey for sport fishing. "
           ],
-          "primaryImage": "/images/fish/sea-bass.jpeg",
-          "images": []
+          "primaryImage": "/images/fish/tarpon/tarpon1.jpg",
+          "images": [
+            "/images/fish/tarpon/tarpon1.jpg",
+            "/images/fish/tarpon/tarpon2.jpg",
+            "/images/fish/tarpon/tarpon3.jpg"
+          ]
         },
         {
           "id": "Snook",
           "label": "Snook",
           "description": [
-            "Excelente especie para la pesca deportiva, se capturan en todas las temporadas del año y muchas personas vienen al lago gatun en busca de esta especie. Después le agrego algo mas aquí"
+            "The Common Snook is one of the largest in the snook species family. The Centropomus Undecimalis has a sleek and slender body with a very visible and pronounced dark lateral line. The common snook has a sloped forehead which features a lower protruding jaw and a large mouth along with very high and divided dorsal fins. The Common snook is also golden yellow in color with a pale yellow fin. They are also referred to as Snook, Sergeant Fish, and Thin Snook."
           ],
-          "primaryImage": "/images/fish/sea-bass.jpeg",
+          "primaryImage": "/images/fish/snook/snook1.jpg",
           "images": []
         },
         {
-          "id": "Jurel",
-          "label": "Jurel",
-          "description": [
-            "El Jurel es una especie de pez que pertenece a la familia Carangidae. Se encuentra en aguas templadas y tropicales de todo el mundo, y es muy común en el Océano Atlántico y el Pacífico."
-          ],
-          "primaryImage": "/images/fish/sea-bass.jpeg",
+          "id": "Jack",
+          "label": "Jack",
+          "description": [""],
+          "primaryImage": "/images/fish/jack/jack1.jpg",
           "images": []
         },
         {
-          "id": "Snook2",
-          "label": "Snook",
-          "description": [
-            "Excelente especie para la pesca deportiva, se capturan en todas las temporadas del año y muchas personas vienen al lago gatun en busca de esta especie. Después le agrego algo mas aquí"
-          ],
-          "primaryImage": "/images/fish/sea-bass.jpeg",
-          "images": []
-        },
-        {
-          "id": "Jurel2",
-          "label": "Jurel",
-          "description": [
-            "El Jurel es una especie de pez que pertenece a la familia Carangidae. Se encuentra en aguas templadas y tropicales de todo el mundo, y es muy común en el Océano Atlántico y el Pacífico."
-          ],
-          "primaryImage": "/images/fish/sea-bass.jpeg",
+          "id": "Others",
+          "label": "Wildlife",
+          "description": [""],
+          "primaryImage": "/images/fish/others/monkey2.jpg",
           "images": []
         }
       ]
