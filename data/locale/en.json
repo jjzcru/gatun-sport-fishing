@@ -5,7 +5,7 @@
       "bookNowBtn": "Book Now"
     },
     "header": {
-      "title": "Best Freshwater Fishing In The World",
+      "title": "Best Freshwater Fishing Lake In The World",
       "videoSrc": "/header.mp4",
       "content": [
         "The best freshwater fishing charter in Panama. Come and discover the biggest artificial lake of the world, with some of the best game fish."
@@ -15,26 +15,28 @@
       "title": "Gatun sport fishing Slogan",
       "content": [
         "4.8 Stars rating on Fishing Booker and other charter websites, for more than 10 years we have gave our guests the best atention, gear and boats of all Gatun lake. Our goal is to give you the best fishing experience of your live. ",
-        "GSF team is ready to make that dream happen. We are located at the heart of the Panama Canal, Going out from Gamboa Rainforest Hotel with security 24/7 and private parking, restaurants, pool and so much more!"
+        "GSF team is ready to make that dream happen. We are located at the heart of the Panama Canal, Going out from Gamboa Rainforest Hotel with security 24/7 and private parking, restaurants, pool and so much more!",
+        "The lake is renowned for its excellent fishing opportunities, and anglers come from all over the world to experience its unique fishing environment. The lake is home to many species of fish, including peacock bass, tarpon, snook, catfish, and more. The peacock bass is the most sought-after fish in the lake, and it's not hard to see why. These fish are aggressive and put up a good fight, making them a popular target for anglers.",
+        "Fishing at the Gatun Lake can be done in many ways, and there are various fishing techniques that anglers can use. Some anglers prefer to use lures, while others prefer live bait. The lake's fishing environment is diverse, and anglers can fish in the lake's shallow waters, deep waters, or even near the lake's many islands.",
+        "This will be an unforgettable experience that every angler should have. The lake's unique fishing environment, diverse fish species, and peaceful atmosphere make it an ideal spot for fishing enthusiasts. Whether you are an experienced angler or a beginner, fishing at the Gatun Lake is an experience that you will never forget."
       ],
       "image": "/images/fish/sea-bass.jpeg"
     },
     "fish": {
       "title": "Target Species",
-      "description": "Random description",
+      "description": [
+        "Fishing at the Gatun Lake in Panama is an incredible experience that every angler should have on their bucket list. Gatun Lake is a man-made lake located in the Panama Canal Zone and is one of the largest lakes in the world. It spans over 166 square miles and is home to a diverse range of fish species."
+      ],
       "fishes": [
         {
           "id": "peacock",
           "label": "Peacock bass",
           "description": [
-            "The peacock bass is one of the most popular freshwater fish in the world. From the South American giants that lurk in the Amazon to South Florida, they are considered some of the hardiest and most colorful freshwater fish in the world.",
-            " Part of the reason why they are so highly regarded around the world is because they are not actually sea bass but cichlids. There are over 1,300 species of cichlids found on four different continents, including well-known fish such as anglers, oscars, and tilapia. ",
-            "Until 2006 it was believed that there were only five species of peacock bass in the entire world, but today there are 15 different recognized species. Only one of them is found in Panama, Cichla Pleiozona, which is unique in having a distinctive fourth vertical bar. ",
-            "The Peacock bass we fish for today is not native to Panama, but was introduced in the 1950s and 1960s. Known locally as “sergeant,” there are two theories as to how they got here. One is that they escaped from a nearby fish farm during a flood after heavy rains, the other scenario is that they were planted by bored American soldiers who were stationed here while the Panama Canal was under American control from its opening in 1914 until 1999. The nickname “sergeant” comes from the fact that in the early decades it was mainly US military who fished them and/or the four vertical stripes on their sides as a military uniform. Come what may, the sea bass has taken over Gatun Lake and is now, without a doubt, the preeminent freshwater species."
+            "Peacock bass is a popular game fish that is found in many countries, including Panama. Peacock bass is a species of cichlid fish that are known for their colorful appearance and aggressive nature. They are a popular target for anglers who enjoy a challenging fight.",
+            "Peacock bass are known for their hard-hitting strikes and their ability to put up a strong fight when hooked. They are often caught using lures, such as topwater plugs, jigs, and spinnerbaits. Anglers who target peacock bass in Panama often use heavy tackle to handle the fish's powerful runs and jumps."
           ],
           "primaryImage": "/images/fish/peacock/peacock1.jpg",
           "images": [
-            "/images/fish/peacock/peacock1.jpg",
             "/images/fish/peacock/peacock2.jpg",
             "/images/fish/peacock/peacock3.jpg",
             "/images/fish/peacock/peacock4.jpg",
@@ -51,7 +53,6 @@
           ],
           "primaryImage": "/images/fish/tarpon/tarpon1.jpg",
           "images": [
-            "/images/fish/tarpon/tarpon1.jpg",
             "/images/fish/tarpon/tarpon2.jpg",
             "/images/fish/tarpon/tarpon3.jpg"
           ]
@@ -60,7 +61,8 @@
           "id": "Snook",
           "label": "Snook",
           "description": [
-            "The Common Snook is one of the largest in the snook species family. The Centropomus Undecimalis has a sleek and slender body with a very visible and pronounced dark lateral line. The common snook has a sloped forehead which features a lower protruding jaw and a large mouth along with very high and divided dorsal fins. The Common snook is also golden yellow in color with a pale yellow fin. They are also referred to as Snook, Sergeant Fish, and Thin Snook."
+            "Snook fish, also known as robalo, is a popular game fish here in Panama. They are known for their aggressive strikes and acrobatic jumps, making them a favorite target for many anglers.",
+            "Snook fish are a highly sought-after game fish among anglers due to their hard-fighting nature and excellent eating quality. They can be found in a variety of habitats, including mangrove-lined creeks, estuaries, and nearshore waters. Snook fish are also known to migrate between freshwater and saltwater environments, making them a challenging and exciting target for anglers of all skill levels."
           ],
           "primaryImage": "/images/fish/snook/snook1.jpg",
           "images": []
@@ -68,14 +70,23 @@
         {
           "id": "Jack",
           "label": "Jack",
-          "description": [""],
+          "description": [
+            "They are known for their aggressive feeding habits and are a popular target for anglers who enjoy a challenging fight.",
+            "Jack Crevalle fish are a sight to behold. These fish have a distinctive appearance, with a dark olive-green or blue back, silver sides, and a yellow or white belly. They have a forked tail and a prominent black spot on their gill cover. Jack Crevalle fish can grow up to 40 inches in length and weigh up to 60 pounds, making them a formidable opponent for any angler.",
+            "These fish are known for their strength and speed, and they put up a fierce fight when hooked. They are often caught using live bait, lures, or by fly fishing. Anglers who target Jack Crevalle fish often use heavy tackle and braided line to handle the fish's explosive runs and powerful jumps.",
+            "Jack Crevalle fish are found in a variety of habitats, including nearshore waters, estuaries, and inlets. They are opportunistic feeders and will eat a variety of prey, including small fish, shrimp, and crabs. Anglers often target these fish by casting lures near structure such as jetties, rocks, or bridge pilings, where Jack Crevalle fish are known to gather."
+          ],
           "primaryImage": "/images/fish/jack/jack1.jpg",
           "images": []
         },
         {
           "id": "Others",
           "label": "Wildlife",
-          "description": [""],
+          "description": [
+            "The Gamboa Rainforest is a lush, tropical paradise located in Panama, Central America. The rainforest is situated on the banks of the Chagres River and is surrounded by the Soberania National Park, one of the most biodiverse areas in the world. The Gamboa Rainforest is a haven for wildlife, with over 500 species of birds, 105 species of mammals, and 79 species of reptiles and amphibians.",
+            "Another popular activity in the Gamboa Rainforest is river tours. Visitors can take a boat tour down the Chagres River and see the rainforest from a different perspective. The river is home to many animals, including crocodiles, turtles, and monkeys, and visitors can also spot many bird species along the riverbanks.",
+            "The rainforest is a popular destination for nature lovers, adventure seekers, and eco-tourists. Visitors can explore the rainforest on foot, by boat, or by zip line, and there are many activities to choose from. One of the most popular activities is bird watching, as the rainforest is home to many rare and exotic bird species, including toucans, macaws, and parrots. Visitors can also go on guided hikes to explore the rainforest's many trails and discover the diverse flora and fauna that call the rainforest home."
+          ],
           "primaryImage": "/images/fish/others/monkey2.jpg",
           "images": []
         }
@@ -86,27 +97,27 @@
       "images": [
         {
           "label": "",
-          "image": "/images/fish/sea-bass.jpeg"
+          "image": "/images/boat/boat1.jpg"
         },
         {
           "label": "",
-          "image": "/images/fish/sea-bass.jpeg"
+          "image": "/images/boat/boat2.jpg"
         },
         {
           "label": "",
-          "image": "/images/fish/sea-bass.jpeg"
+          "image": "/images/boat/boat3.jpg"
         },
         {
           "label": "",
-          "image": "/images/fish/sea-bass.jpeg"
+          "image": "/images/fish/peacock/peacock7.jpg"
         },
         {
           "label": "",
-          "image": "/images/fish/sea-bass.jpeg"
+          "image": "/images/fish/tarpon/tarpon2.jpg"
         },
         {
           "label": "",
-          "image": "/images/fish/sea-bass.jpeg"
+          "image": "/images/fish/peacock/peacock6.jpg"
         }
       ]
     },
