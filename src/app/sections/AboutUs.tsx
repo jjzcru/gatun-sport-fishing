@@ -13,7 +13,7 @@ export default function AboutUs() {
           <div>
             <h2>{title}</h2>
             <hr />
-            <p>{content}</p>
+            {content.map((c: string, i: number) => <p key={`p-${i}`}>{c}</p>)}
           </div>
         </div>
         <div className={styles["image"]}>

@@ -13,7 +13,7 @@ export const AppContext = createContext<AppContextProps>({
   },
   aboutUs: {
     title: "",
-    content: "",
+    content: [],
     image: "",
   },
   fish: {
@@ -88,7 +88,7 @@ interface HeaderSection {
 
 interface AboutUsSection {
   title: string;
-  content: string;
+  content: Array<string>;
   image: string;
 }
 
