@@ -10,14 +10,21 @@ export default function Gallery() {
   const { gallery } = useContext(AppContext);
   const { title, images } = gallery;
 
+  let spaceBetween = 20;
+  let slidesPerView = 4;
+  if (window.innerWidth < 481) {
+    slidesPerView = 2;
+    spaceBetween = 20;
+  }
+
   return (
     <section className={styles.gallery}>
       <div className={styles.container}>
         <h2>{title}</h2>
         <Swiper
           modules={[Virtual, Navigation, Pagination, Scrollbar]}
-          spaceBetween={20}
-          slidesPerView={4}
+          spaceBetween={spaceBetween}
+          slidesPerView={slidesPerView}
           navigation
           pagination={{ clickable: true }}
           virtual
