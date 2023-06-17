@@ -1,21 +1,29 @@
 "use client";
+import { useContext, useState, useEffect } from "react";
 import { Virtual, Navigation, Pagination, Scrollbar } from "swiper";
-import { useContext } from "react";
 import { AppContext } from "../App.context";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "../page.module.css";
 
 export default function Gallery() {
+  const [slidesPerView, setSlidesPerView] = useState(
+    window.innerWidth < 767 ? 2 : 4
+  );
   const { gallery } = useContext(AppContext);
   const { title, images } = gallery;
 
-  let spaceBetween = 20;
-  let slidesPerView = 4;
-  if (window.innerWidth < 481) {
-    slidesPerView = 2;
-    spaceBetween = 20;
-  }
+  useEffect(() => {
+    const update = () => {
+      setSlidesPerView(window.innerWidth < 767 ? 2 : 4);
+    };
+    window.addEventListener("orientationchange", update);
+    window.addEventListener("resize", update);
+    return () => {
+      window.removeEventListener("orientationchange", update);
+      window.removeEventListener("resize", update);
+    };
+  }, []);
 
   return (
     <section className={styles.gallery}>
@@ -23,7 +31,7 @@ export default function Gallery() {
         <h2>{title}</h2>
         <Swiper
           modules={[Virtual, Navigation, Pagination, Scrollbar]}
-          spaceBetween={spaceBetween}
+          spaceBetween={20}
           slidesPerView={slidesPerView}
           navigation
           pagination={{ clickable: true }}
