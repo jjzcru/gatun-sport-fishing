@@ -45,6 +45,7 @@
   --swiper-pagination-color: #000;
   --max-width: 1024px;
   --dialog-max-width: 800px;
+  --swiper-pagination-bottom: 0px;
 }
 
 .swiper-wrapper {

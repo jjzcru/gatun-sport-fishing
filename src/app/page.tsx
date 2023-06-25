@@ -14,6 +14,7 @@ import Footer from "./sections/Footer";
 
 import { AppContext } from "./App.context";
 import { useData } from "./App.hooks";
+import BookWithUs from "./sections/BookWithUs";
 
 export default function Main() {
   const { data, error } = useData();
@@ -27,6 +28,7 @@ export default function Main() {
       <main className={styles.main}>
         <Header />
         <AboutUs />
+        <BookWithUs />
         <Fish />
         <Gallery />
         <Footer />

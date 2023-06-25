@@ -6,6 +6,10 @@ import styles from "../page.module.css";
 export default function AboutUs() {
   const { aboutUs } = useContext(AppContext);
   const { title, content, image, subtitle } = aboutUs;
+  const style = {
+    backgroundImage: `url("${image}")`
+  };
+  console.log(`BACKGROUND IMAGE:`, style)
   return (
     <section className={styles["about-us"]}>
       <div>
@@ -19,7 +23,7 @@ export default function AboutUs() {
           </div>
         </div>
         <div className={styles["image"]}>
-          <img src={image} />
+          <img style={style}/>
         </div>
       </div>
     </section>

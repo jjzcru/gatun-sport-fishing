@@ -21,6 +21,14 @@
       ],
       "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock15.jpg"
     },
+    "bookWithUs": {
+      "title": "Book with us",
+      "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/lake_drone.JPEG",
+      "content": [
+        "This will be an unforgettable experience that every angler should have. The lake's unique fishing environment, diverse fish species, and peaceful atmosphere make it an ideal spot for fishing enthusiasts.", 
+        "Whether you are an experienced angler or a beginner, fishing at the Gatun Lake is an experience that you will never forget."
+      ]
+    },
     "fish": {
       "title": "Target Species",
       "description": [

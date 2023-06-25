@@ -152,10 +152,91 @@
 }
 
 .about-us .image img {
-  max-height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  max-height: 50vh;
   object-fit: cover;
   height: 100%;
   background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* BOOK WITH US  */
+
+.book-with-us {
+  background: #000;
+  color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.book-with-us > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: none;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "image content";
+  min-height: 60vh;
+}
+
+.book-with-us .content { 
+  display: flex;
+  margin: 0px auto;
+  flex-direction: column;
+  grid-area: content;
+  border: none;
+}
+
+.book-with-us .content > div {
+  margin: auto;
+  max-width: 30vw;
+}
+
+.book-with-us .content h2 {
+  margin: 20px 0px;
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.book-with-us .content .divider {
+  display: block;
+  background: rgba(255,255,255,0.5);
+  min-height: 30px;
+  height: 30px;
+  min-width: 3px;
+  width: 3px;
+  margin: 20px auto;
+}
+
+.book-with-us .content hr {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.book-with-us .content p {
+  padding: 10px;
+  font-size: 1.04167vw;
+  padding-left: 0px;
+}
+
+.book-with-us .image {
+  background: rgb(0, 0, 0);
+  overflow: hidden;
+  grid-area: image;
+  border: none;
+}
+
+.book-with-us .image img {
+  min-height: 100%;
+  min-width: 100%;
+  max-height: 80vh;
+  object-fit: cover;
+  background-position: center;
+  background-size: max(100%, 120vh, 100vw);
+  background-repeat: no-repeat;
 }
 
 /*Fish*/
@@ -284,6 +365,7 @@
   overflow: hidden;
   /*margin: 0px auto;*/
   display: block;
+  box-shadow:  0 0 1px rgba(0,0,0,.04), 0 2px 8px rgba(0,0,0,.04), 0 5px 8px rgba(99,116,134,.03)
 }
 
 .fish dialog form.multiple > :last-child {
@@ -309,6 +391,7 @@
   width: 100%;
   height: 100%;
   transition: transform ease-out 220ms;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 2px 8px rgba(0,0,0,.04), 0 5px 8px rgba(99,116,134,.03);
 }
 
 .fish dialog form.multiple > :last-child div:hover img {
@@ -378,6 +461,7 @@
   transform: scale(1.1);
   object-fit: cover;
   transition: transform ease-out 220ms;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 2px 8px rgba(0,0,0,.04), 0 5px 8px rgba(99,116,134,.03);
 }
 
 .gallery .container figure:hover img {
@@ -515,6 +599,8 @@
     max-width: 80vw;
   }
 
+  /* ABOUT US */
+
   .about-us > div {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 50vh;
@@ -543,6 +629,49 @@
     padding-left: 0px;
     text-align: justify;
   }
+
+  /* BOOK WITH US */
+
+  .book-with-us > div {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 50vh;
+    gap: 0px 0px;
+    grid-template-areas:
+      "content"
+      "image";
+  }
+
+  .book-with-us .content > div {
+    max-width: 80vw;
+    padding: 50px 0px;
+    max-height: 80vh;
+  }
+
+  .book-with-us .content h3 {
+    font-size: 1rem;
+  }
+
+  .book-with-us .content h2 {
+    margin: 10px 0px;
+    font-size: 1.5rem;
+  }
+
+  .book-with-us .content p {
+    padding: 10px;
+    font-size: 0.85rem;
+    padding-left: 0px;
+    text-align: justify;
+  }
+
+  .book-with-us .image img {
+    min-height: 100%;
+    min-width: 100%;
+    max-height: 80vh;
+    background-size: 100vh;
+    background-repeat: no-repeat;
+  }
+
+  /*  FISH   */
 
   .fish {
     padding: 30px 0px;
@@ -637,6 +766,7 @@
   .gallery .container figure img {
     height: 20vh;
     width: 40vw;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 2px 8px rgba(0,0,0,.04), 0 5px 8px rgba(99,116,134,.03);
   }
 
   .footer {
@@ -736,6 +866,7 @@
   .gallery .container figure img {
     height: 20vw;
     width: 16vw;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 2px 8px rgba(0,0,0,.04), 0 5px 8px rgba(99,116,134,.03);
   }
 
   .footer > div {

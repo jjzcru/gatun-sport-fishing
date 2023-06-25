@@ -17,6 +17,11 @@ export const AppContext = createContext<AppContextProps>({
     image: "",
     subtitle: "",
   },
+  bookWithUs: {
+    title: "",
+    content: [],
+    image: "",
+  },
   fish: {
     title: "",
     description: "",
@@ -70,6 +75,7 @@ interface AppContextProps {
   navbar: NavbarSection;
   header: HeaderSection;
   aboutUs: AboutUsSection;
+  bookWithUs: BookWithUsSection;
   fish: FishSection;
   gallery: GallerySection;
   footer: FooterSection;
@@ -90,6 +96,12 @@ interface HeaderSection {
 interface AboutUsSection {
   title: string;
   subtitle: string;
+  content: Array<string>;
+  image: string;
+}
+
+interface BookWithUsSection {
+  title: string;
   content: Array<string>;
   image: string;
 }
