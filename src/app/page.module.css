@@ -1,5 +1,4 @@
-.main {
-}
+.main {}
 
 .main section,
 .main header {
@@ -39,7 +38,7 @@
   color: white;
 }
 
-/*Header*/
+/* HEADER   */
 
 .header {
   height: 100vh;
@@ -54,15 +53,25 @@
   left: 0;
   width: 100%;
   height: 100%;
-
   background: rgba(0, 0, 0, 0.5);
+
+  /*Support for parallax*/
+  position: fixed;
+  z-index: -998;
 }
+
 .header video {
   position: relative;
   object-fit: cover;
   height: 100vh;
   width: 100%;
   pointer-events: none;
+
+  /*Support for parallax*/
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -999;
 }
 
 .header h1 {
@@ -104,7 +113,7 @@
   border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
-.about-us > div {
+.about-us>div {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -119,7 +128,7 @@
   flex-direction: column;
 }
 
-.about-us .content > div {
+.about-us .content>div {
   max-width: 30vw;
 }
 
@@ -170,7 +179,7 @@
   border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
-.book-with-us > div {
+.book-with-us>div {
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: none;
@@ -180,7 +189,7 @@
   min-height: 60vh;
 }
 
-.book-with-us .content { 
+.book-with-us .content {
   display: flex;
   margin: 0px auto;
   flex-direction: column;
@@ -188,7 +197,7 @@
   border: none;
 }
 
-.book-with-us .content > div {
+.book-with-us .content>div {
   margin: auto;
   max-width: 30vw;
 }
@@ -203,7 +212,7 @@
 
 .book-with-us .content .divider {
   display: block;
-  background: rgba(255,255,255,0.5);
+  background: rgba(255, 255, 255, 0.5);
   min-height: 30px;
   height: 30px;
   min-width: 3px;
@@ -327,7 +336,7 @@
   text-align: left;
 }
 
-.fish dialog > div {
+.fish dialog>div {
   top: 0;
   left: 0;
   position: fixed;
@@ -355,20 +364,20 @@
   padding: 20px;
 }
 
-.fish dialog form > :first-child {
+.fish dialog form> :first-child {
   overflow: auto;
 }
 
-.fish dialog form.multiple > :first-child img {
+.fish dialog form.multiple> :first-child img {
   width: 100%;
   border-radius: 8px;
   overflow: hidden;
   /*margin: 0px auto;*/
   display: block;
-  box-shadow:  0 0 1px rgba(0,0,0,.04), 0 2px 8px rgba(0,0,0,.04), 0 5px 8px rgba(99,116,134,.03)
+  box-shadow: 0 0 1px rgba(0, 0, 0, .04), 0 2px 8px rgba(0, 0, 0, .04), 0 5px 8px rgba(99, 116, 134, .03)
 }
 
-.fish dialog form.multiple > :last-child {
+.fish dialog form.multiple> :last-child {
   display: flex;
   flex-flow: wrap;
   width: 100%;
@@ -377,7 +386,7 @@
   overflow: scroll;
 }
 
-.fish dialog form.multiple > :last-child div {
+.fish dialog form.multiple> :last-child div {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
@@ -386,15 +395,15 @@
   height: 200px;
 }
 
-.fish dialog form.multiple > :last-child div img {
+.fish dialog form.multiple> :last-child div img {
   object-fit: cover;
   width: 100%;
   height: 100%;
   transition: transform ease-out 220ms;
-  box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 2px 8px rgba(0,0,0,.04), 0 5px 8px rgba(99,116,134,.03);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .04), 0 2px 8px rgba(0, 0, 0, .04), 0 5px 8px rgba(99, 116, 134, .03);
 }
 
-.fish dialog form.multiple > :last-child div:hover img {
+.fish dialog form.multiple> :last-child div:hover img {
   transform: scale(1.2);
   cursor: pointer;
 }
@@ -407,7 +416,7 @@
   background: rgba(0, 0, 0, 0.75);
 }
 
-.fish form.single > :last-child {
+.fish form.single> :last-child {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -443,7 +452,7 @@
   margin-bottom: 2vh;
 }
 
-.gallery .container > div {
+.gallery .container>div {
   height: 22vw;
   max-width: 60vw;
 }
@@ -461,7 +470,7 @@
   transform: scale(1.1);
   object-fit: cover;
   transition: transform ease-out 220ms;
-  box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 2px 8px rgba(0,0,0,.04), 0 5px 8px rgba(99,116,134,.03);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .04), 0 2px 8px rgba(0, 0, 0, .04), 0 5px 8px rgba(99, 116, 134, .03);
 }
 
 .gallery .container figure:hover img {
@@ -477,7 +486,7 @@
   padding: 2vw 0px;
 }
 
-.footer > div {
+.footer>div {
   display: flex;
   width: 100%;
   max-width: 60vw;
@@ -487,11 +496,11 @@
   align-items: flex-start;
 }
 
-.footer > div > div {
+.footer>div>div {
   max-width: 25vw;
 }
 
-.footer > div > :last-child {
+.footer>div> :last-child {
   text-align: right;
 }
 
@@ -499,8 +508,8 @@
   margin-bottom: 1vw;
 }
 
-.footer > div h4,
-.footer > div p {
+.footer>div h4,
+.footer>div p {
   display: block;
   margin: 10px;
 }
@@ -601,7 +610,7 @@
 
   /* ABOUT US */
 
-  .about-us > div {
+  .about-us>div {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 50vh;
     gap: 0px 0px;
@@ -610,7 +619,7 @@
       ".";
   }
 
-  .about-us .content > div {
+  .about-us .content>div {
     max-width: 80vw;
   }
 
@@ -632,7 +641,7 @@
 
   /* BOOK WITH US */
 
-  .book-with-us > div {
+  .book-with-us>div {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 50vh;
     gap: 0px 0px;
@@ -641,7 +650,7 @@
       "image";
   }
 
-  .book-with-us .content > div {
+  .book-with-us .content>div {
     max-width: 80vw;
     padding: 50px 0px;
     max-height: 80vh;
@@ -724,12 +733,12 @@
     margin-bottom: 10px;
   }
 
-  .fish dialog form > :first-child,
-  .fish dialog form > :last-child {
+  .fish dialog form> :first-child,
+  .fish dialog form> :last-child {
     overflow: unset;
   }
 
-  .fish dialog form.multiple > :last-child div {
+  .fish dialog form.multiple> :last-child div {
     margin: 5px;
     width: 45%;
     height: 200px;
@@ -749,7 +758,7 @@
     margin-bottom: 2vh;
   }
 
-  .gallery .container > div {
+  .gallery .container>div {
     margin: 0px auto;
     height: calc(20vh + 40px);
     max-height: calc(25vh + 40px);
@@ -766,19 +775,20 @@
   .gallery .container figure img {
     height: 20vh;
     width: 40vw;
-    box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 2px 8px rgba(0,0,0,.04), 0 5px 8px rgba(99,116,134,.03);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .04), 0 2px 8px rgba(0, 0, 0, .04), 0 5px 8px rgba(99, 116, 134, .03);
   }
 
   .footer {
     min-height: 200px;
     padding: 2vw 0px;
   }
-  .footer > div {
+
+  .footer>div {
     max-width: 100vw;
     flex-direction: column;
   }
 
-  .footer > div > div {
+  .footer>div>div {
     max-width: 100vw;
   }
 
@@ -791,7 +801,7 @@
     font-size: 0.9rem;
   }
 
-  .footer > div > :last-child {
+  .footer>div> :last-child {
     text-align: left;
   }
 
@@ -848,7 +858,7 @@
     max-width: 80vw;
   }
 
-  .gallery .container > div {
+  .gallery .container>div {
     height: 25vw;
     max-width: 80vw;
   }
@@ -866,10 +876,10 @@
   .gallery .container figure img {
     height: 20vw;
     width: 16vw;
-    box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 2px 8px rgba(0,0,0,.04), 0 5px 8px rgba(99,116,134,.03);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .04), 0 2px 8px rgba(0, 0, 0, .04), 0 5px 8px rgba(99, 116, 134, .03);
   }
 
-  .footer > div {
+  .footer>div {
     max-width: 80vw;
   }
 
