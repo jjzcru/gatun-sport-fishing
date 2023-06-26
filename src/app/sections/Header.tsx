@@ -13,8 +13,8 @@ export default function Header() {
       <div className={styles.overlay} />
       <div className={styles.content}>
         <h1>{title}</h1>
-        {content.map((c, i) => (
-          <p key={i}>{c}</p>
+        {content.map((c) => (
+          <p key={c}>{c}</p>
         ))}
       </div>
     </header>

@@ -16,6 +16,7 @@ export const AppContext = createContext<AppContextProps>({
     content: [],
     image: "",
     subtitle: "",
+    label: ""
   },
   bookWithUs: {
     title: "",
@@ -27,6 +28,7 @@ export const AppContext = createContext<AppContextProps>({
     description: "",
     fishes: [],
   },
+  details: [],
   gallery: {
     title: "",
     images: [],
@@ -77,6 +79,7 @@ interface AppContextProps {
   aboutUs: AboutUsSection;
   bookWithUs: BookWithUsSection;
   fish: FishSection;
+  details: Array<DetailSection>;
   gallery: GallerySection;
   footer: FooterSection;
   faq: FaqSection;
@@ -98,6 +101,18 @@ interface AboutUsSection {
   subtitle: string;
   content: Array<string>;
   image: string;
+  label?: string;
+}
+
+export interface DetailSection {
+  title: string;
+  content: Array<string>;
+  background?: string;
+  color?: string;
+  image: {
+    src: string;
+    label?: string;
+  }
 }
 
 interface BookWithUsSection {

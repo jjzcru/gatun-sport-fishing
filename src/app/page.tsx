@@ -15,6 +15,7 @@ import Footer from "./sections/Footer";
 import { AppContext } from "./App.context";
 import { useData } from "./App.hooks";
 import BookWithUs from "./sections/BookWithUs";
+import Details from "./sections/Details";
 
 export default function Main() {
   const { data, error } = useData();
@@ -30,6 +31,7 @@ export default function Main() {
         <AboutUs />
         <BookWithUs />
         <Fish />
+        <Details />
         <Gallery />
         <Footer />
       </main>

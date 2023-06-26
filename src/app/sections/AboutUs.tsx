@@ -9,7 +9,7 @@ export default function AboutUs() {
   const style = {
     backgroundImage: `url("${image}")`
   };
-  console.log(`BACKGROUND IMAGE:`, style)
+ 
   return (
     <section className={styles["about-us"]}>
       <div>
@@ -17,8 +17,8 @@ export default function AboutUs() {
           <div>
             <h3>{subtitle}</h3>
             <h2>{title}</h2>
-            {content.map((c: string, i: number) => (
-              <p key={`p-${i}`}>{c}</p>
+            {content.map((c) => (
+              <p key={c}>{c}</p>
             ))}
           </div>
         </div>
