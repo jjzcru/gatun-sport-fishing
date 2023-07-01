@@ -24,7 +24,7 @@
     },
     "bookWithUs": {
       "title": "Book with us",
-      "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/lake_drone.JPEG",
+      "video": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/booking.mp4",
       "content": [
         "This will be an unforgettable experience that every angler should have. Whether you are an experienced angler or a beginner, fishing at the Gatun Lake is an experience that you will never forget."
       ]
@@ -158,7 +158,6 @@
       },
       {
         "title": "Big family or friends groups",
-
         "content": [
           "We can split big groups into multiple boats or why not a friends tournament? everyone will have a ton of fun!",
           "Contact us for more information about large groups."
@@ -300,7 +299,9 @@
         },
         {
           "question": "How long it takes to get to the fishing spots?",
-          "answer": ["About half hour if the conditions are good."]
+          "answer": [
+            "About half hour if the conditions are good."
+          ]
         },
         {
           "question": "Live bait or lures?",
@@ -316,7 +317,9 @@
         },
         {
           "question": "Do i need a fishing license or permit?",
-          "answer": ["Not needed!"]
+          "answer": [
+            "Not needed!"
+          ]
         }
       ]
     }
