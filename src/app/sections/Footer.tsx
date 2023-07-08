@@ -63,6 +63,7 @@ function Address() {
         <br />
       </p>
       <Social />
+      <Logo />
     </div>
   );
 }
@@ -84,4 +85,13 @@ function Social() {
       </a>
     </span>
   );
+}
+
+function Logo() {
+  const { footer } = useContext(AppContext);
+  const { logo } = footer;
+  console.log(`LOGO`, logo);
+  return <div className={styles["logo"]}>
+    <img src={logo} alt="Gatun Sport Fishing Logo"/>
+    </div>
 }

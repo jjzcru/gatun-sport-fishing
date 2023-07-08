@@ -34,6 +34,7 @@ export const AppContext = createContext<AppContextProps>({
     images: [],
   },
   footer: {
+    logo: "",
     contactUs: {
       title: "",
       description: "",
@@ -136,6 +137,7 @@ interface GallerySection {
 }
 
 interface FooterSection {
+  logo: string;
   contactUs: ContactUs;
   address: Address;
   social: Social;
