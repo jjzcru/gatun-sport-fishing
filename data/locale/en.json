@@ -5,10 +5,10 @@
       "bookNowBtn": "Book Now"
     },
     "header": {
-      "title": "Best Freshwater Fishing Lake In The World",
+      "title": "The Best Freshwater Fishing Lake In The World",
       "videoSrc": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/header.mp4",
       "content": [
-        "Discover one of the biggest artificial lakes of the world, with some of the best game fish you could imagine."
+        "Discover the Gatun Lake, with some of the best game fish you could imagine."
       ]
     },
     "aboutUs": {
@@ -26,7 +26,7 @@
       "title": "Book with us",
       "video": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/booking.mp4",
       "content": [
-        "This will be an unforgettable experience that every angler should have. Whether you are an experienced angler or a beginner, fishing at the Gatun Lake is an experience that you will never forget."
+        "This will be an unforgettable experience that every angler should have. Whether you are an experienced angler or a beginner, fishing at the Gatun Lake is something you will never forget."
       ]
     },
     "fish": {
@@ -68,7 +68,7 @@
           "id": "Snook",
           "label": "Snook",
           "description": [
-            "Snook fish, also known as robalo, is a popular game fish here in Panama. They are known for their aggressive strikes and acrobatic jumps, making them a favorite target for many anglers.",
+            "Snook, also known as robalo, is a popular game fish here in Panama. They are known for their aggressive strikes and acrobatic jumps, making them a favorite target for many anglers.",
             "they are a highly sought-after game fish among anglers due to their hard-fighting nature and excellent eating quality. Snook are also known to migrate between freshwater and saltwater environments, making them a challenging and exciting target for anglers of all skill levels."
           ],
           "primaryImage": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook2.jpg",
@@ -226,9 +226,9 @@
         "email": {
           "text": "gerardoduran30@hotmail.com",
           "address": "gerardoduran30@hotmail.com",
-          "subject": "Consulta"
+          "subject": "Inquiries"
         },
-        "copyright": "© 2023 Gamboa Gatun Association",
+        "copyright": "© 2023 Gatun Sportfishing Association",
         "privacy": {
           "text": "Privacy Policy",
           "url": "https://gatunsportfishing.com/terms"
@@ -300,9 +300,7 @@
         },
         {
           "question": "How long it takes to get to the fishing spots?",
-          "answer": [
-            "About half hour if the conditions are good."
-          ]
+          "answer": ["About half hour if the conditions are good."]
         },
         {
           "question": "Live bait or lures?",
@@ -313,14 +311,12 @@
         {
           "question": "How many people can i bring with me?",
           "answer": [
-            "Depends on what you're trying to do. If you are a hardcore fishermen, you know less is better. 3 people will fish confortably in our boats. Bigger groups will be charged an extra per person ($50). HAY QUE PREGUNTAR ESTO"
+            "Depends on what you're trying to do. If you are a hardcore fishermen, you know less is better. 3 people will fish confortably in our boats. Bigger groups will be charged an extra per person."
           ]
         },
         {
           "question": "Do i need a fishing license or permit?",
-          "answer": [
-            "Not needed!"
-          ]
+          "answer": ["Not needed!"]
         }
       ]
     }

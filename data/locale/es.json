@@ -2,115 +2,240 @@
   "sections": {
     "navbar": {
       "title": "Gatun Sport Fishing",
-      "bookNowBtn": "Book Now"
+      "bookNowBtn": "Reservar"
     },
     "header": {
-      "title": "Lorem Ipsum",
-      "videoSrc": "/header.mp4",
+      "title": "El mejor lago de pesca de agua dulce en el mundo.",
+      "videoSrc": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/header.mp4",
       "content": [
-        "The best freshwater fishing charter in Panama. Come and discover the biggest artificial lake of the world, with some of the best game fish."
+        "Descubre el Lago Gatun, con algunas de las mejores especies para la pesca deportiva que puedes imaginarte."
       ]
     },
     "aboutUs": {
-      "title": "Gatun sport fishing Slogan",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla leo eget feugiat mattis. Nunc non magna pulvinar sem ullamcorper vestibulum. Integer interdum neque a diam iaculis, quis pharetra diam rutrum. Aenean leo ex, congue a consectetur eu, consequat ut odio. Proin tincidunt odio a quam iaculis, sed vestibulum libero accumsan. Praesent eu orci ac leo suscipit imperdiet. Integer pellentesque non odio eu tincidunt. Morbi ut blandit lorem. Proin eros metus, vulputate eu luctus ac, posuere eget lorem. Duis turpis nisi, commodo a lectus at, tempor consequat nibh. Aliquam erat volutpat. Mauris hendrerit a justo eget placerat. Praesent purus leo, posuere commodo odio nec, lacinia pulvinar ipsum. Proin tincidunt venenatis arcu ut vestibulum. Phasellus eu ante leo. Proin volutpat leo eget justo laoreet interdum.",
-      "image": "/images/fish/sea-bass.jpeg"
+      "title": "Una experiencia de pesca incomparable",
+      "subtitle": "La aventura comienza ahora",
+      "label": "Fisherman with a fish",
+      "content": [
+        "Calificación de 4.8 estrellas entre los sitios web de pesca deportiva. Más de 10 años de experiencia junto con la mejor atención, equipo y embarcaciones de todo el lago Gatún. Nuestro objetivo es brindarte la mejor experiencia de pesca de tu vida.",
+        "Ubicado en el corazón del Canal de Panamá, saliendo desde el Gamboa Rainforest Hotel con seguridad las 24 horas del día y estacionamiento privado, restaurantes, piscina ¡y mucho más!",
+        "Pescadores vienen de todo el mundo para experimentar este entorno único de pesca. El lago alberga muchas especies de peces, incluyendo el Sargento (peacock bass), Tarpon, Robalo y más. El Sargento es el pez más buscado en el lago, y no es difícil ver por qué. Estos peces son agresivos y ofrecen una buena pelea, lo que los convierte en un objetivo popular para los pescadores."
+      ],
+      "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock15.jpg"
+    },
+    "bookWithUs": {
+      "title": "Reserva con nosotros",
+      "video": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/booking.mp4",
+      "content": [
+        "Esta será una experiencia inolvidable que todo pescador debería tener. Ya seas un pescador experimentado o un principiante, pescar en el lago Gatún es algo que nunca olvidarás."
+      ]
     },
     "fish": {
-      "title": "Target Species",
-      "description": "Random description",
+      "title": "Especies",
+      "description": [
+        "Pescar en el lago Gatún es una experiencia increíble que todo pescador debería tener en su lista de deseos. El lago Gatún es un lago artificial ubicado en la Zona del Canal de Panamá y es uno de los lagos más grandes del mundo. Se extiende por más de 166 millas cuadradas y alberga una amplia variedad de especies de peces."
+      ],
       "fishes": [
         {
           "id": "peacock",
-          "label": "Peacock bass",
+          "label": "Sargento (Peacock Bass)",
           "description": [
-            "La lubina pavo real es uno de los peces de agua dulce más populares del mundo. Desde los gigantes sudamericanos que acechan en el Amazonas hasta el sur de Florida, se les considera uno de los peces de agua dulce más coloridos y de mayor resistencia en el mundo. Parte de la razón por la que son tan apreciados en todo el mundo es porque en realidad no son lubinas sino cíclidos. "
+            "El Sargento es un pez de juego popular que se encuentra en muchos países, incluyendo Panamá. Es una especie de pez cíclido conocida por su apariencia colorida y su naturaleza agresiva. Son un objetivo popular para los pescadores que disfrutan de una pelea desafiante.",
+            "Son conocidos por sus ataques frenéticos y su capacidad para librar una fuerte batalla una vez enganchados. A menudo se capturan utilizando señuelos como los topwater, rapalas, entre otros."
           ],
-          "primaryImage": "/images/fish/sea-bass.jpeg",
-          "images": ["/images/fish/sea-bass.jpeg"]
+          "primaryImage": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock11.jpg",
+          "images": [
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock2.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock3.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock4.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock5.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock6.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock7.jpg"
+          ]
         },
         {
           "id": "Tarpon",
-          "label": "Tarpon",
+          "label": "Tarpon o Sabalo Real",
           "description": [
-            "El sábalo real o bien tarpón (especie Megalops atlanticus), es un pez osteíctio elopiforme de la familia de los megalópidos."
+            "El tarpón, también conocido como el rey plateado, es un pez de juego majestuoso y poderoso conocido por sus saltos acrobáticos y sus peleas feroces, cautivando a los pescadores con su tamaño, fuerza y naturaleza esquiva. Apuntar al tarpón es una emocionante búsqueda que promete batallas llenas de adrenalina y la oportunidad de capturar un verdadero trofeo."
           ],
-          "primaryImage": "/images/fish/sea-bass.jpeg",
-          "images": []
+          "primaryImage": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/tarpon/tarpon.png",
+          "images": [
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/tarpon/tarpon1.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/tarpon/tarpon3.jpg"
+          ]
         },
         {
           "id": "Snook",
-          "label": "Snook",
+          "label": "Robalo",
           "description": [
-            "Excelente especie para la pesca deportiva, se capturan en todas las temporadas del año y muchas personas vienen al lago gatun en busca de esta especie. Después le agrego algo mas aquí"
+            "El Robalo, también conocido como snook, es un pez de juego popular aquí en Panamá. Son conocidos por sus ataques agresivos y saltos acrobáticos, lo que los convierte en un objetivo favorito para muchos pescadores.",
+            "Son un pez de juego muy buscado por los pescadores debido a su naturaleza de lucha intensa y su excelente calidad como alimento. Los robalos también son conocidos por migrar entre ambientes de agua dulce y salada, lo que los convierte en un desafío emocionante para pescadores de todos los niveles de habilidad."
           ],
-          "primaryImage": "/images/fish/sea-bass.jpeg",
-          "images": []
+          "primaryImage": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook2.jpg",
+          "images": [
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook_gerardo.png",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook.png",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook1.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook3.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook4.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook6.jpg"
+          ]
         },
         {
           "id": "Jack",
-          "label": "Jack",
+          "label": "Jurel",
           "description": [
-            "El Jurel es una especie de pez que pertenece a la familia Carangidae. Se encuentra en aguas templadas y tropicales de todo el mundo, y es muy común en el Océano Atlántico y el Pacífico."
+            "El jurel, un luchador implacable, es un pez de juego muy apreciado conocido por sus ataques agresivos y carreras poderosas, brindando a los pescadores un desafío emocionante. Con su velocidad, fuerza y tenacidad, capturar un jurel garantiza una batalla llena de adrenalina que te dejará maravillado por su pura potencia."
           ],
-          "primaryImage": "/images/fish/sea-bass.jpeg",
-          "images": []
+          "primaryImage": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack4.jpg",
+          "images": [
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack1.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack_boat.png",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack2.jpeg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack3.png",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack5.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack6.jpg"
+          ]
         },
         {
           "id": "Others",
-          "label": "Others",
-          "description": [""],
-          "primaryImage": "/images/fish/sea-bass.jpeg",
-          "images": []
+          "label": "Vida silvestre y actividades",
+          "description": [
+            "El Bosque Tropical de Gamboa es un paraíso exuberante y tropical ubicado en Panamá, América Central. El bosque se encuentra a orillas del río Chagres y está rodeado por el Parque Nacional Soberanía, una de las áreas más biodiversas del mundo. El Bosque Tropical de Gamboa es un refugio para la vida silvestre, con más de 500 especies de aves, 105 especies de mamíferos y 79 especies de reptiles y anfibios.",
+            "Otra actividad popular en el Bosque Tropical de Gamboa son los tours en el río. Los visitantes pueden hacer un recorrido en bote por el río Chagres y ver el bosque desde una perspectiva diferente. El río es hogar de muchos animales, incluyendo cocodrilos, tortugas y monos, y los visitantes también pueden avistar muchas especies de aves a lo largo de las orillas del río.",
+            "El bosque tropical es un destino popular para amantes de la naturaleza, buscadores de aventuras y eco-turistas. Los visitantes pueden explorar el bosque a pie, en bote o en tirolesa, y hay muchas actividades para elegir. Una de las actividades más populares es la observación de aves, ya que el bosque tropical alberga muchas especies de aves raras y exóticas, incluyendo tucanes, guacamayos y loros. Los visitantes también pueden hacer caminatas guiadas para explorar los numerosos senderos del bosque tropical y descubrir la diversa flora y fauna que habita en él."
+          ],
+          "primaryImage": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/monkey2.jpg",
+          "images": [
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/croc.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/cyclid.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/group.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/ladyfish.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/monkey.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/monkey4.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/tilapia.jpg"
+          ]
         }
       ]
     },
+    "details": [
+      {
+        "title": "Nuestro Capitan",
+        "content": [
+          "Gerardo conoce el agua como nadie más. Con más de 20 años de experiencia, te llevará a los mejores lugares de pesca donde puedes atrapar el pez de tu vida.",
+          "Él es apasionado por la pesca y se esfuerza al máximo para asegurarse de que sus clientes tengan una experiencia inolvidable en el agua."
+        ],
+        "image": {
+          "src": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook5.jpg",
+          "label": "Captain Gerardo and a client with a huge snook"
+        }
+      },
+      {
+        "title": "Conectate con la naturaleza",
+        "background": "#fff",
+        "color": "var(--black-color)",
+        "content": [
+          "¡También ofrecemos observación de vida silvestre que incluye múltiples animales, como diferentes tipos de monos, aves, caimanes y más!",
+          "Pregunte a nuestro equipo acerca de estos paquetes, también podemos combinar estos paquetes con la pesca para aprovechar al máximo su charter."
+        ],
+        "image": {
+          "src": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/group.jpg",
+          "label": "Group of customers"
+        }
+      },
+      {
+        "title": "Nuestra flota",
+        "background": "#fff",
+        "color": "var(--black-color)",
+        "content": [
+          "Todos nuestros barcos están equipados con motores de 4 tiempos, motor de pesca inalámbrico, buscador de peces y nevera / tanques de peces vivos.",
+          "Nuestro Custom Skiff de 21 pies acaba de ser terminada y a todos nuestros clientes les encanta, ¡incluso a los pescadores con mosca que son pescadores altamente deportivos!"
+        ],
+        "image": {
+          "src": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/boat1.jpg",
+          "label": "Gatun Sportfishing Boat"
+        }
+      },
+      {
+        "title": "Grupos grandes de familiares o amigos",
+        "content": [
+          "Podemos dividir los grupos grandes en varias embarcaciones o, ¿por qué no organizar un torneo entre amigos? ¡Todos se divertirán muchísimo!",
+          "No dude en ponerse en contacto con nosotros para obtener más información sobre grupos grandes. Estaremos encantados de proporcionarle todos los detalles y responder a cualquier pregunta que pueda tener."
+        ],
+        "image": {
+          "src": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/group.jpeg",
+          "label": "Fishermans in the boat"
+        }
+      },
+      {
+        "title": "Fly Fishing",
+        "background": "#fff",
+        "color": "var(--black-color)",
+        "content": [
+          "Gatun lake offers a haven for dedicated fly fishermen seeking the ultimate challenge and the chance to land trophy-sized fish.",
+          "Prepárate para poner a prueba tus habilidades, superar tus límites y crear recuerdos inolvidables en uno de los destinos de pesca con mosca más buscados del mundo."
+        ],
+        "image": {
+          "src": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/fly.jpg",
+          "label": "Gatun Sportfishing Boat"
+        }
+      }
+    ],
     "gallery": {
-      "title": "Gallery",
+      "title": "Galeria",
       "images": [
         {
           "label": "",
-          "image": "/images/fish/sea-bass.jpeg"
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/marina.JPEG"
         },
         {
           "label": "",
-          "image": "/images/fish/sea-bass.jpeg"
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/boat1.jpg"
         },
         {
           "label": "",
-          "image": "/images/fish/sea-bass.jpeg"
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/boat2.jpg"
         },
         {
           "label": "",
-          "image": "/images/fish/sea-bass.jpeg"
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/boat3.jpg"
         },
         {
           "label": "",
-          "image": "/images/fish/sea-bass.jpeg"
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/boat4.JPEG"
         },
         {
           "label": "",
-          "image": "/images/fish/sea-bass.jpeg"
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/drone_top.JPEG"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/drone_top2.JPEG"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/lake_drone.JPEG"
         }
       ]
     },
     "footer": {
+      "logo": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/logo.png",
       "contactUs": {
-        "title": "Contact Us",
-        "description": "Text random sobre porque contactarlo",
+        "title": "Contactanos",
+        "description": "Nos apasiona la pesca y estamos comprometidos a brindarte la mejor experiencia de pesca posible.",
         "email": {
           "text": "gerardoduran30@hotmail.com",
           "address": "gerardoduran30@hotmail.com",
-          "subject": "Consulta"
+          "subject": "Consultas"
         },
-        "copyright": "© 2023 Gamboa Gatun Association",
+        "copyright": "© 2023 Gatun Sportfishing Association",
         "privacy": {
-          "text": "Privacy Policy",
-          "url": "#"
+          "text": "Politicas de privacidad",
+          "url": "https://gatunsportfishing.com/terms"
         }
       },
       "address": {
-        "title": "Address",
+        "title": "Direccion",
         "mapUrl": "https://goo.gl/maps/H8XZUFixP9uozwYo6",
         "address1": "Gamboa",
         "address2": "Panama, Panama",
@@ -120,24 +245,80 @@
         }
       },
       "social": {
-        "instagram": "https://www.instagram.com/gatunsportfishing/",
+        "instagram": "https://www.instagram.com/gatunsportfishing",
         "wa": "https://wa.me/50769482285",
         "tiktok": "https://www.tiktok.com/@gerardoduranfishing"
       }
     },
     "faq": {
-      "title": "Faq",
-      "description": "Description",
-      "image": "/header.jpg",
+      "title": "Preguntas frecuentes",
+      "description": "No importa si eres un pescador experimentado o recién estás empezando con la pesca, estamos aquí para ayudarte a responder tus preguntas. Echa un vistazo a nuestra selección de preguntas frecuentes a continuación, o no dudes en contactar a nuestro equipo para consultas más específicas.",
+      "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/drone_top2.JPEG",
       "viewMoreBtn": "View More",
       "questions": [
         {
-          "question": "Question 1",
-          "answer": ["Answer 1", "Answer 2"]
+          "question": "What should i bring to the trip?",
+          "answer": [
+            "Sugerimos a todos nuestros clientes que viajen ligeros, ya que nosotros proporcionamos neveras y equipo. Solo tienes que traer ropa fresca adecuada para el calor de Panamá y algunos snacks."
+          ]
         },
         {
-          "question": "Question 2",
-          "answer": ["Answer 1"]
+          "question": "¿Qué equipo de pesca proporcionan?",
+          "answer": [
+            "Normalmente llevamos combos de spinning para nuestros charters, pero también podemos traer cañas de baitcasting o de mosca bajo solicitud."
+          ]
+        },
+        {
+          "question": "¿Puedo traer mi propio Equipo o señuelos?",
+          "answer": [
+            "¡Sí, absolutamente! Nuestro capitán te indicará cuáles son los mejores señuelos de tu colección y te dirá cuáles debes usar."
+          ]
+        },
+        {
+          "question": "¿Necesito un automóvil para llegar a la marina?",
+          "answer": [
+            "Podemos proporcionar transporte si es necesario. Gamboa está a 30 minutos de la Ciudad de Panamá y se requiere un automóvil para llegar a la marina."
+          ]
+        },
+        {
+          "question": "¿El viaje incluye algún tipo de comida o bebida?",
+          "answer": [
+            "Normalmente incluimos algunos snacks y bebidas sin alcohol, pero siempre sugerimos a nuestros clientes que traigan sus favoritos."
+          ]
+        },
+        {
+          "question": "¿Podemos llevar algo del pescado con nosotros?",
+          "answer": [
+            "Apoyamos la pesca y liberación con las especies más amenazadas, pero si el capitán lo permite, puedes quedarte con un robalo y llevarlo contigo. (¡es delicioso!)"
+          ]
+        },
+        {
+          "question": "¿Está incluida la propina para el capitán?",
+          "answer": [
+            "No está incluida. Si disfrutaste del servicio que te brindó el capitán, una propina será muy apreciada."
+          ]
+        },
+        {
+          "question": "¿Cuánto tiempo se tarda en llegar a los lugares de pesca?",
+          "answer": [
+            "Aproximadamente media hora si las condiciones son buenas."
+          ]
+        },
+        {
+          "question": "¿Carnada viva o solo señuelos?",
+          "answer": [
+            "¡Podemos hacerlo! La carnada cuesta alrededor de $10 y durara por todo el día de pesca. Tendrás que pagarlo en la marina, ya que es un proveedor externo."
+          ]
+        },
+        {
+          "question": "¿Cuántas personas puedo llevar conmigo?",
+          "answer": [
+            "Depende de lo que estés planeando hacer. Si eres un pescador experimentado, sabrás que menos personas es mejor. Nuestras embarcaciones pueden acomodar cómodamente a 3 personas para pescar. Grupos más grandes tendrán un cargo adicional por persona."
+          ]
+        },
+        {
+          "question": "¿Necesito una licencia o permiso de pesca?",
+          "answer": ["No es necesario!"]
         }
       ]
     }
