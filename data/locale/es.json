@@ -16,7 +16,7 @@
       "subtitle": "La aventura comienza ahora",
       "label": "Fisherman with a fish",
       "content": [
-        "Calificación de 4.8 estrellas entre los sitios web de pesca deportiva. Más de 10 años de experiencia junto con la mejor atención, equipo y embarcaciones de todo el lago Gatún. Nuestro objetivo es brindarte la mejor experiencia de pesca de tu vida.",
+        "Calificación de 4.8 estrellas entre los sitios web de pesca deportiva. Más de 20 años de experiencia junto con la mejor atención, equipo y embarcaciones de todo el lago Gatún. Nuestro objetivo es brindarte la mejor experiencia de pesca de tu vida.",
         "Ubicado en el corazón del Canal de Panamá, saliendo desde el Gamboa Rainforest Hotel con seguridad las 24 horas del día y estacionamiento privado, restaurantes, piscina ¡y mucho más!",
         "Pescadores vienen de todo el mundo para experimentar este entorno único de pesca. El lago alberga muchas especies de peces, incluyendo el Sargento (peacock bass), Tarpon, Robalo y más. El Sargento es el pez más buscado en el lago, y no es difícil ver por qué. Estos peces son agresivos y ofrecen una buena pelea, lo que los convierte en un objetivo popular para los pescadores."
       ],
@@ -149,7 +149,7 @@
         "color": "var(--black-color)",
         "content": [
           "Todos nuestros barcos están equipados con motores de 4 tiempos, motor de pesca inalámbrico, buscador de peces y nevera / tanques de peces vivos.",
-          "Nuestro Custom Skiff de 21 pies acaba de ser terminada y a todos nuestros clientes les encanta, ¡incluso a los pescadores con mosca que son pescadores altamente deportivos!"
+          "Nuestro Custom Skiff de 20 pies acaba de ser terminada y a todos nuestros clientes les encanta, ¡incluso a los pescadores con mosca que son pescadores altamente deportivos!"
         ],
         "image": {
           "src": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/boat1.jpg",
@@ -173,7 +173,8 @@
         "color": "var(--black-color)",
         "content": [
           "Gatun lake offers a haven for dedicated fly fishermen seeking the ultimate challenge and the chance to land trophy-sized fish.",
-          "Prepárate para poner a prueba tus habilidades, superar tus límites y crear recuerdos inolvidables en uno de los destinos de pesca con mosca más buscados del mundo."
+          "Prepárate para poner a prueba tus habilidades, superar tus límites y crear recuerdos inolvidables en uno de los destinos de pesca con mosca más buscados del mundo.",
+          "Esta Tecnica permite a los pescadores capturar la mayoria de las especies en el Lago Gatun, incluyendo Sabalo Real, robalo, Sargento, Jurel y mas!"
         ],
         "image": {
           "src": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/fly.jpg",
@@ -322,9 +323,9 @@
       "viewMoreBtn": "View More",
       "questions": [
         {
-          "question": "What should i bring to the trip?",
+          "question": "¿Qué debo llevar conmigo?",
           "answer": [
-            "Sugerimos a todos nuestros clientes que viajen ligeros, ya que nosotros proporcionamos neveras y equipo. Solo tienes que traer ropa fresca adecuada para el calor de Panamá y algunos snacks."
+            "Sugerimos a todos nuestros clientes que viajen ligeros, ya que nosotros proporcionamos neveras y equipo. Solo tienes que traer ropa fresca adecuada para el calor de Panamá, lentes de sol, bloqueador solar, gorra y un poncho en caso de lluvias (muy comun en un clima tan humedo) y quizas tus snack favorito."
           ]
         },
         {
@@ -342,13 +343,13 @@
         {
           "question": "¿Necesito un automóvil para llegar a la marina?",
           "answer": [
-            "Podemos proporcionar transporte si es necesario. Gamboa está a 30 minutos de la Ciudad de Panamá y se requiere un automóvil para llegar a la marina."
+            "Podemos proporcionar transporte si es necesario. Gamboa Rainforest Reseve está a 30 minutos de la Ciudad de Panamá y se requiere un automóvil para llegar a la marina."
           ]
         },
         {
           "question": "¿El viaje incluye algún tipo de comida o bebida?",
           "answer": [
-            "Normalmente incluimos algunos snacks y bebidas sin alcohol, pero siempre sugerimos a nuestros clientes que traigan sus favoritos."
+            "Normalmente incluimos algunos snacks y bebidas sin alcohol, pero siempre sugerimos a nuestros clientes que traigan sus favoritos. Tambien pueden contactarnos si quieren consumir algo en especial y podemos ayudarlos!"
           ]
         },
         {
@@ -366,19 +367,19 @@
         {
           "question": "¿Cuánto tiempo se tarda en llegar a los lugares de pesca?",
           "answer": [
-            "Aproximadamente media hora si las condiciones son buenas."
+            "Aproximadamente 20 minutos si las condiciones son buenas."
           ]
         },
         {
           "question": "¿Carnada viva o solo señuelos?",
           "answer": [
-            "¡Podemos hacerlo! La carnada cuesta alrededor de $10 y durara por todo el día de pesca. Tendrás que pagarlo en la marina, ya que es un proveedor externo."
+            "¡Podemos hacerlo! Dejale saber al capitan antes de salir de la marina o contactanos para que sepamos el tipo de pesca que quieres hacer en tu viaje."
           ]
         },
         {
           "question": "¿Cuántas personas puedo llevar conmigo?",
           "answer": [
-            "Depende de lo que estés planeando hacer. Si eres un pescador experimentado, sabrás que menos personas es mejor. Nuestras embarcaciones pueden acomodar cómodamente a 3 personas para pescar. Grupos más grandes tendrán un cargo adicional por persona."
+            "Depende de lo que estés planeando hacer. Si eres un pescador experimentado, sabrás que menos personas es mejor. Nuestras embarcaciones pueden acomodar cómodamente a 5 personas. Grupos más grandes tendrán un cargo adicional por persona. A partir de la 3ra persona tiene un cargo adicional."
           ]
         },
         {
