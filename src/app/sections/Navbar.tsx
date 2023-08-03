@@ -10,7 +10,9 @@ export default function Navbar() {
       <div>
         <Link href="/">{navbar.title}</Link>
       </div>
-      <button>{navbar.bookNowBtn}</button>
+      <button onClick={() => {
+        window.open("http://booking.gatunsportfishing.com");
+      }}>{navbar.bookNowBtn}</button>
     </nav>
   );
 }
