@@ -3,19 +3,16 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 
-import Navbar from "./sections/Navbar";
+import Navbar from "../sections/Navbar";
+import Footer from "../sections/Footer";
+
 import Header from "./sections/Header";
-import AboutUs from "./sections/AboutUs";
-import Fish from "./sections/Fish";
-import Gallery from "./sections/Gallery";
-import Footer from "./sections/Footer";
+import Faq from "./sections/Faq";
 
-import { AppContext } from "./App.context";
-import { useData } from "./App.hooks";
-import BookWithUs from "./sections/BookWithUs";
-import Details from "./sections/Details";
+import { AppContext } from "../App.context";
+import { useData } from "../App.hooks";
 
 export default function Main() {
   const { data, error } = useData();
@@ -28,11 +25,7 @@ export default function Main() {
       <Navbar />
       <main className={styles.main}>
         <Header />
-        <AboutUs />
-        <BookWithUs />
-        <Fish />
-        <Details />
-        <Gallery />
+        <Faq />
         <Footer />
       </main>
     </AppContext.Provider>

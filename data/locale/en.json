@@ -1,0 +1,390 @@
+{
+  "sections": {
+    "navbar": {
+      "title": "Gatun Sport Fishing",
+      "bookNowBtn": "Book Now"
+    },
+    "header": {
+      "title": "The Best Freshwater Fishing Lake In The World",
+      "videoSrc": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/header.mp4",
+      "content": [
+        "Discover the Gatun Lake, with some of the best game fish you could imagine."
+      ]
+    },
+    "aboutUs": {
+      "title": "The Ultimate Fishing Experience",
+      "subtitle": "The adventure starts now",
+      "label": "Fisherman with a fish",
+      "content": [
+        "4.8 Stars rating all around charter websites. Over 20 years of experience along with the best atention, gear and boats of all Gatun lake. Our goal is to give you the best fishing experience ever. ",
+        "Located at the heart of the Panama Canal, Going out from Gamboa Rainforest Hotel with security 24/7 and private parking, restaurants, pool and so much more!",
+        "Anglers come from all over the world to experience its unique fishing environment. The lake is home to many species of fish, including peacock bass, tarpon, snook and more. The peacock bass is the most sought-after fish in the lake, and it's not hard to see why. These fish are aggressive and put up a good fight, making them a popular target for anglers."
+      ],
+      "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock15.jpg"
+    },
+    "bookWithUs": {
+      "title": "Book with us",
+      "video": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/booking.mp4",
+      "content": [
+        "This will be an unforgettable experience that every angler should have. Whether you are an experienced angler or a beginner, fishing at the Gatun Lake is something you will never forget."
+      ]
+    },
+    "fish": {
+      "title": "Target Species",
+      "description": [
+        "Fishing at the Gatun Lake is an incredible experience that every angler should have on their bucket list. Gatun Lake is a man-made lake located in the Panama Canal Zone and is one of the largest lakes in the world. It spans over 166 square miles and is home to a diverse range of fish species."
+      ],
+      "fishes": [
+        {
+          "id": "peacock",
+          "label": "Peacock bass",
+          "description": [
+            "Peacock bass is a popular game fish that is found in many countries, including Panama. Peacock bass is a species of cichlid fish that are known for their colorful appearance and aggressive nature. They are a popular target for anglers who enjoy a challenging fight.",
+            "They are known for their crazy strikes and their ability to put up a strong fight when hooked. They are often caught using lures, such as topwater plugs, jigs, and spinnerbaits. Anglers who target peacock bass in Panama often use heavy tackle to handle the fish's powerful runs and jumps."
+          ],
+          "primaryImage": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock11.jpg",
+          "images": [
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock2.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock3.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock4.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock5.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock6.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock7.jpg"
+          ]
+        },
+        {
+          "id": "Tarpon",
+          "label": "Tarpon",
+          "description": [
+            "Tarpon or silver king, is a majestic and powerful game fish known for its acrobatic jumps and fierce fights, captivating anglers with its size, strength, and elusive nature. Targeting tarpon is a thrilling pursuit that promises adrenaline-pumping battles and the chance to catch a true trophy fish."
+          ],
+          "primaryImage": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/tarpon/tarpon.png",
+          "images": [
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/tarpon/tarpon1.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/tarpon/tarpon3.jpg"
+          ]
+        },
+        {
+          "id": "Snook",
+          "label": "Snook",
+          "description": [
+            "Snook, also known as robalo, is a popular game fish here in Panama. They are known for their aggressive strikes and acrobatic jumps, making them a favorite target for many anglers.",
+            "they are a highly sought-after game fish among anglers due to their hard-fighting nature and excellent eating quality. Snook are also known to migrate between freshwater and saltwater environments, making them a challenging and exciting target for anglers of all skill levels."
+          ],
+          "primaryImage": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook2.jpg",
+          "images": [
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook_gerardo.png",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook.png",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook1.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook3.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook4.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook6.jpg"
+          ]
+        },
+        {
+          "id": "Jack",
+          "label": "Jack Crevalle",
+          "description": [
+            "The jack crevalle, a relentless fighter, is a prized game fish known for its aggressive strikes and powerful runs, providing anglers with an exhilarating challenge. With its speed, strength, and tenacity, catching a jack crevalle guarantees an adrenaline-fueled battle that will leave you in awe of its sheer power."
+          ],
+          "primaryImage": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack4.jpg",
+          "images": [
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack1.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack_boat.png",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack2.jpeg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack3.png",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack5.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack6.jpg"
+          ]
+        },
+        {
+          "id": "Others",
+          "label": "Wildlife and Activities",
+          "description": [
+            "The Gamboa Rainforest Reserve is a lush, tropical paradise located in Panama, Central America. The rainforest is situated on the banks of the Chagres River and is surrounded by the Soberania National Park, one of the most biodiverse areas in the world. The Gamboa Rainforest is a haven for wildlife, with over 500 species of birds, 105 species of mammals, and 79 species of reptiles and amphibians.",
+            "Another popular activity in the Gamboa Rainforest is river tours. Visitors can take a boat tour down the Chagres River and see the rainforest from a different perspective. The river is home to many animals, including crocodiles, turtles, and monkeys, and visitors can also spot many bird species along the riverbanks.",
+            "The rainforest is a popular destination for nature lovers, adventure seekers, and eco-tourists. Visitors can explore the rainforest on foot, by boat, or by zip line, and there are many activities to choose from. One of the most popular activities is bird watching, as the rainforest is home to many rare and exotic bird species, including toucans, macaws, and parrots. Visitors can also go on guided hikes to explore the rainforest's many trails and discover the diverse flora and fauna that call the rainforest home."
+          ],
+          "primaryImage": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/monkey2.jpg",
+          "images": [
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/croc.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/cyclid.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/group.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/ladyfish.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/monkey.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/monkey4.jpg",
+            "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/tilapia.jpg"
+          ]
+        }
+      ]
+    },
+    "details": [
+      {
+        "title": "Our captain",
+        "content": [
+          "Gerardo knows the water like no one else. With over 20 years of experience, he will take you to the best fishing spots where you can catch the fish of a lifetime.",
+          "He is passionate about fishing and goes above and beyond to ensure that his clients have an unforgettable experience on the water."
+        ],
+        "image": {
+          "src": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook5.jpg",
+          "label": "Captain Gerardo and a client with a huge snook"
+        }
+      },
+      {
+        "title": "Meet the wildlife",
+        "background": "#fff",
+        "color": "var(--black-color)",
+        "content": [
+          "We also offer wildlife observation that includes multiple animals, like different kinds of monkeys, birds, alligators and more!",
+          "Ask our team about this packages, we can also mix this packages with fishing to thet the most out of your charter."
+        ],
+        "image": {
+          "src": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/group.jpg",
+          "label": "Group of customers"
+        }
+      },
+      {
+        "title": "Our fleet",
+        "background": "#fff",
+        "color": "var(--black-color)",
+        "content": [
+          "All our boats are outfitted with 4 stroke engines, wireless trolling motor, fish finder and cooler / livewells.",
+          "Our 20 foot skiff was just finished and all our clients love it, even the Fly fishing guys that are serious anglers!"
+        ],
+        "image": {
+          "src": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/boat1.jpg",
+          "label": "Gatun Sportfishing Boat"
+        }
+      },
+      {
+        "title": "Big family or friends groups",
+        "content": [
+          "We can split big groups into multiple boats or why not a friends tournament? everyone will have a ton of fun!",
+          "Contact us for more information about large groups."
+        ],
+        "image": {
+          "src": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/group.jpeg",
+          "label": "Fishermans in the boat"
+        }
+      },
+      {
+        "title": "Fly Fishing",
+        "background": "#fff",
+        "color": "var(--black-color)",
+        "content": [
+          "Gatun lake offers a haven for dedicated fly fishermen seeking the ultimate challenge and the chance to land trophy-sized fish.",
+          "Prepare to test your skills, push your limits, and create unforgettable memories in one of the world's most sought-after fly fishing destinations.",
+          "This technique allows angler to catch almost all species in the Gatun Lake including Tarpon, Snook, Peacock, Jacks and more!"
+        ],
+        "image": {
+          "src": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/fly.jpg",
+          "label": "Gatun Sportfishing Boat"
+        }
+      }
+    ],
+    "gallery": {
+      "title": "Gallery",
+      "images": [
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/marina.JPEG"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/boat3.jpg"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/drone_top.JPEG"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/boat4.JPEG"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/lake_drone.JPEG"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/boat2.jpg"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/drone_top2.JPEG"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook_gerardo.png"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack3.png"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/ladyfish.jpg"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock7.jpg"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook3.jpg"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook.png"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock11.jpg"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack6.jpg"
+        },
+
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/tilapia.jpg"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/snook/snook1.jpg"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock4.jpg"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack4.jpg"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock3.jpg"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/tarpon/tarpon3.jpg"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/others/cyclid.jpg"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/jack/jack5.jpg"
+        },
+        {
+          "label": "",
+          "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/fish/peacock/peacock5.jpg"
+        }
+      ]
+    },
+    "footer": {
+      "logo": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/logo.png",
+      "contactUs": {
+        "title": "Contact Us",
+        "description": "We are passionate about fishing and committed to providing you with the best possible fishing experience. ",
+        "email": {
+          "text": "gerardoduran30@hotmail.com",
+          "address": "gerardoduran30@hotmail.com",
+          "subject": "Inquiries"
+        },
+        "copyright": "© 2023 Gatun Sportfishing Association",
+        "privacy": {
+          "text": "Privacy Policy",
+          "url": "https://gatunsportfishing.com/terms"
+        }
+      },
+      "address": {
+        "title": "Address",
+        "mapUrl": "https://goo.gl/maps/H8XZUFixP9uozwYo6",
+        "address1": "Gamboa",
+        "address2": "Panama, Panama",
+        "phone": {
+          "text": "(507) 6948-2285",
+          "number": "+150769482285"
+        }
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/gatunsportfishing",
+        "wa": "https://wa.me/50769482285",
+        "tiktok": "https://www.tiktok.com/@gerardoduranfishing"
+      }
+    },
+    "faq": {
+      "title": "Frequent Ask Questions",
+      "description": "Doesn't matter if you're an experienced angler or just starting out with fishing, we're here to help answer your questions. Take a look at our selection of Faqs below, or feel free to contact our team for more specific inquiries.",
+      "image": "https://pub-eea688af5baf4f3aac5ee6b3fbc11d02.r2.dev/images/boat/drone_top2.JPEG",
+      "viewMoreBtn": "View More",
+      "questions": [
+        {
+          "question": "What should i bring to the trip?",
+          "answer": [
+            "We suggest all our clients pack light, we provide coolers and equipment, you only have to bring freash clothing for the panama Heat, sunglasses, hat, sunscreen and a rain jacket (rains are very common on this humid enviorement) and some snacks "
+          ]
+        },
+        {
+          "question": "What fishing gear you provide?",
+          "answer": [
+            "We usually bring spinning combos for our charters, but we can also bring Baitcasting or Fly rods upon request."
+          ]
+        },
+        {
+          "question": "Can i bring my own tackle or lures?",
+          "answer": [
+            "Yeah, absolutely! our captain will tell you what are the best lures on your collection and let you know what to use."
+          ]
+        },
+        {
+          "question": "Do i need a car to get to the marina?",
+          "answer": [
+            "We can provide transportation if needed. Gamboa Rainforest Reseve is 30 minutes outside Panama city, a car is required to get to the marina."
+          ]
+        },
+        {
+          "question": "The trip include any sort of food or drinks?",
+          "answer": [
+            "We usually include some snacks and soft drinks, but we always suggest our clients to bring their favorites. You can contact us if you have any other inquiry, we might be able to help get the food you want onboard!  "
+          ]
+        },
+        {
+          "question": "Can we take some of the fish with us?",
+          "answer": [
+            "We support catch and release with the most endangered species, but you keep a snook take some with you if the captain allows it. (its delicious)"
+          ]
+        },
+        {
+          "question": "Is the tip to the captain included?",
+          "answer": [
+            "Is not included. If you enjoy the service your captain gave you, a gratuity will be very appreciated."
+          ]
+        },
+        {
+          "question": "How long it takes to get to the fishing spots?",
+          "answer": ["About 20 minutes if the conditions are good."]
+        },
+        {
+          "question": "Live bait or lures?",
+          "answer": [
+            "We can do both! Let our crew know about this before going out of the marina or contact us before the trip to know that."
+          ]
+        },
+        {
+          "question": "How many people can i bring with me?",
+          "answer": [
+            "Depends on what you're trying to do. If you are a hardcore fishermen, you know less is better. 5 people will fish confortably in our boats. Bigger groups will be charged an extra per person. After the third person, every person will have an extra charge."
+          ]
+        },
+        {
+          "question": "Do i need a fishing license or permit?",
+          "answer": ["Not needed!"]
+        }
+      ]
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "gatun-sport-fishing",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -17,6 +17,8 @@
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "swiper": "^9.3.2",
+    "swr": "^2.1.5",
     "typescript": "5.1.3"
   }
 }
